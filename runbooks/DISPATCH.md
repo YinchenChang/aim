@@ -7,7 +7,7 @@
 3. **選角：** `python tools/aimctl.py pick`。
    - `SKIP` → 最終回覆一行 `SKIP <理由>`，結束（不 commit）。
    - `IDLE` → `aimctl beat --role IDLE --task - --result idle`；commit `IDLE: heartbeat`；push；最終回覆一行 `IDLE`。
-   - 其餘 → `aimctl lock --role <role>`（exit 3＝他輪持鎖 → 同 SKIP）。
+   - 其餘 → `aimctl lock --role <role>`（exit 3＝他輪持鎖 → 同 SKIP），**立即** `git add work/.lock && git commit -m "LOCK <role>" && git push`。push 被拒＝他輪同時搶鎖 → `git pull --rebase` 後重跑 `pick`（通常為 SKIP）；鎖只有推上 main 才算取得，本機鎖不算。
 4. **執行：** 讀 `runbooks/<ROLE>.md`，依 pick 之 `kind`／`queue` 做**一件事**。
    - kind=`SCOUT-WATCH`／`SCOUT-GEN` → SCOUT.md 對應節。
    - kind=`ANALYST` → ANALYST.md。
