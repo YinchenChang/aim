@@ -6,9 +6,9 @@
 |---|---|---|---|---|---|
 | R-20 | L2-A | 新生成物 | 內部（ARCH_matrix 新生成） | 2026-10-07 | 未觸發。`query/ARCH_matrix.md` L2 列 A 格仍「已測｜不進 T」，無「已生成 #n」；`work/` 無 L2-A 生成卡；QUEUE 無 L2-A 列（內部檢查，無外部 URL） |
 | R-21 | L2-I | 任一美股上市開發商或資料中心 REIT 於 10-K／10-Q 分列許可／併網撤回或附條件之已發生損失或有負債，且與租戶信用損失分列（FUNNEL §1；INDEX：見 FUNNEL §1） | EDGAR 10-K／10-Q | 2026-10-07 | 未觸發。EQIX 10-Q 2026-06-30 前 100k 字無許可／併網撤回或附條件之已發生損失或有負債（URL 見 RETRIG_3 R-19，末 16k 字未讀）；DLR 10-Q 2026-06-30 損益／資產負債表無此科目，附註未讀（同上）。環境：德州州長 2026-09-21 令 TCEQ 暫停全部資料中心許可至 ERCOT 稽核完成（約 2026-12 中，https://www.bracewell.com/resources/governor-abbott-orders-tceq-to-pause-all-permit-issuance-for-data-center-projects/），屬季後事件，尚無對應 10-Q；下次以 Q3 10-Q（2026-10 底起）再查。其他開發商未逐查 |
-| R-22 | L1-A | 10-K分列已鎖定PPA單價與殘差現貨／關稅且可畫兩期 | EDGAR 10-K／10-Q | — | 未檢查 |
-| R-23 | L1-I | ISO／RTO佇列或LBNL年報分列已繳保證金／場址控制／財務承諾MW vs 裸申請且可畫兩期 | ISO／RTO 佇列；LBNL Queued Up 年報 | — | 未檢查 |
-| R-24 | L3-A | 申報分列節點ASP或封裝營收與層別良率且可與晶粒面積對帳 | EDGAR 10-K／10-Q | — | 未檢查 |
+| R-22 | L1-A | 10-K分列已鎖定PPA單價與殘差現貨／關稅且可畫兩期 | EDGAR 10-K／10-Q | 2026-10-07 | 無法判定（失敗歸因：VST FY2025 10-K 可讀部分無 PPA $/MWh 或避險價量表，但 MD&A／7A／附註13 未讀到，https://www.sec.gov/Archives/edgar/data/1692819/000169281926000006/vistra-20251231.htm；EDGAR FTS 權限逾時未取）。TLN Q1 2025 新聞稿僅避險量比例、無 AWS PPA 單價（https://ir.talenenergy.com/node/8551/pdf）。非存在性主張 |
+| R-23 | L1-I | ISO／RTO佇列或LBNL年報分列已繳保證金／場址控制／財務承諾MW vs 裸申請且可畫兩期 | ISO／RTO 佇列；LBNL Queued Up 年報 | 2026-10-07 | 未觸發（LBNL 半）。Queued Up 2026（2026-06，資料至 2025 底）active 容量只分有無 IA、單一時點；保證金／場址控制僅為改革條文、未分列 MW（https://eta-publications.lbl.gov/sites/default/files/2026-06/queued_up_2026_edition.pdf）。ISO／RTO 佇列未逐查 |
+| R-24 | L3-A | 申報分列節點ASP或封裝營收與層別良率且可與晶粒面積對帳 | EDGAR 10-K／10-Q | 2026-10-07 | 未觸發（TSMC 半）。TSMC 3Q25 earnings release 僅節點占晶圓營收 %（3nm 23%／5nm 37%／7nm 14%），無節點 ASP、封裝營收、良率（https://investor.tsmc.com/schinese/encrypt/files/encrypt_file/reports/2025-10/ff1cf977182dad2178b6d158e61d375ac98ff517/3Q25EarningsRelease.pdf）。20-F 與其他申報人未查 |
 | R-25 | L4-P | 10-K分列scale-up域內銅／光且可與CEI／IEEE對帳 | EDGAR 10-K／10-Q | — | 未檢查 |
 | R-26 | L4-I | 10-K分列系統／機櫃vs加速器或參考設計／系統授權收入 | 條款／授權頁；EDGAR 10-K／10-Q | — | 未檢查 |
 | R-27 | L5-P | 10-K分列裝置BW與運算吞吐且可與產品頁／V_byte對帳 | EDGAR 10-K／10-Q | — | 未檢查 |
