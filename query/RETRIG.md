@@ -10,9 +10,9 @@
 | R-04 | C-A4 | P2 窗可重推至覆蓋 M-6（2027-10-31）且續約單價比 `k` 可反解 | 內部推算（P2 窗×M-6）；無外部 URL | 2026-10-07 | 未觸發。`k` 未揭露：CRWV 10-Q 2026-06-30 無續約／展期相對原約單價之揭露（https://www.sec.gov/Archives/edgar/data/0001769628/000176962826000366/crwv-20260630.htm）；2026-09-17 新聞稿只給新簽 3–6 月短約約 $40M/MW，無續約比（https://investors.coreweave.com/news/news-details/2026/CoreWeave-Continues-to-Contract-New-Compute-Capacity-at-Higher-Prices/default.aspx）。P2 窗半屬內部推算（Drive 唯讀 ARCH_4d §4.23：窗 ≤2027-08-06），本輪無新輸入可重推 |
 | R-05 | C-A3 | 樞紐重開且折舊年限離散可歸因減損附註拆假設 vs 實際 | EDGAR 10-K 減損附註 | 2026-10-07 | 未觸發。前件「樞紐重開」未成立（R-04 未觸發）；CRWV 10-Q 2026-06-30 未見 PP&E 減損或年限估計變更（僅 goodwill 無減損），無假設 vs 實際之拆分（URL 同 R-04）。WebFetch 摘要讀取，非逐行 |
 | R-06 | C-A1 | 10-K 首次以美元分列 consumption／Agentforce 營收與毛利 | EDGAR 10-K（CRM） | 2026-10-07 | 未觸發。CRM FY2026 10-K（期末 2026-01-31）Agentforce 僅見於業務／風險敘述，無以美元分列 consumption／Agentforce 營收與毛利（https://www.sec.gov/Archives/edgar/data/1108524/000110852426000060/crm-20260131.htm）；Agentforce 僅於法說／新聞以 ARR 揭露（https://nationalcioreview.com/articles-insights/cio-field-notes/agentforce-reaches-800-million-as-salesforce-posts-strong-q4/），非 10-K。下一份 10-K 預期 2027-03 |
-| R-07 | 能力上限／Confidential／自動化 R&D | — | 無（無觸發器） | — | 未檢查 |
-| R-08 | VEEV | 出現具名反方論述 | 公開具名反方論述（研報／媒體） | — | 未檢查 |
-| R-09 | C-A2 | L9 對應論點達門檻且條款非可撤回、單位經濟揭露恢復 | 內部（L9 論點）＋EDGAR 單位經濟揭露 | — | 未檢查 |
+| R-07 | 能力上限／Confidential／自動化 R&D | — | 無（無觸發器） | 2026-10-07 | 無法判定（失敗歸因：原文無觸發器，ARCH_dead #7 觸發器欄為「—」、載體【未摘】；無可 fetch 之對象）。非存在性主張 |
+| R-08 | VEEV | 出現具名反方論述 | 公開具名反方論述（研報／媒體） | 2026-10-07 | 無法判定（失敗歸因：VEEV 原論點之方向與內容【未摘】、repo 無副本，無法判定何者構成「反方」）。檢得具名論述：Morgan Stanley Craig Hettenbach 2023-06-28 降 Underweight，理由 Salesforce 進入生命科學 CRM（https://finance.yahoo.com/news/veeva-veev-falls-nearly-3-130500221.html）；2026-07-21 報導 Evercore ISI Kirk Materne、BMO Sean Dodge 列最低目標價、理由 CRM 客戶轉 Salesforce（https://www.quiverquant.com/news/Veeva+Systems+Slides+as+Investors+Revisit+AI,+CRM+Migration,+and+Valuation+Risks，AI 生成稿）；Kevin Bird 2026-03-09 遷移風險分析（https://www.theinvestmentlog.com/posts/veev/2026-03-09）。原論點取回前不判觸發 |
+| R-09 | C-A2 | L9 對應論點達門檻且條款非可撤回、單位經濟揭露恢復 | 內部（L9 論點）＋EDGAR 單位經濟揭露 | 2026-10-07 | 未觸發。前件「L9 對應論點達門檻」未成立：`query/INDEX.json` L9-P＝已殺、L9-A／L9-I＝已測｜不進 T；FUNNEL §1 無 L9 現役列。後兩件（條款可撤回性、單位經濟揭露）因合取前件不成立本輪未查 |
 | R-10 | C-I1 | 已上市、估值可歸因於「模型權重能力」而非執行層工程之標的對照 | EDGAR／上市標的估值資料 | — | 未檢查 |
 | R-11 | C-P1 | 營運商揭露 checkpoint 讀取占復原 >50%；儲存分列訓練／推論且訓練側成長不低於 GPU；非同步 checkpoint 三年採用 <50% | 營運商技術揭露；EDGAR 10-K | — | 未檢查 |
 | R-12 | C-I2 | 上市主體毛利擴張經管理層歸因專家單價上升；或人類回饋支出分離為獨立科目 | EDGAR 10-K／10-Q MD&A | — | 未檢查 |
