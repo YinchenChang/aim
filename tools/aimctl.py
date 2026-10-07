@@ -5,6 +5,7 @@ aimctl.py — AIM 機械層（CHARTER C1.2 §6）。只選、記、算；不做�
     python tools/aimctl.py pick                 # 印出本輪角色與任務（JSON）；不改檔
     python tools/aimctl.py lock  --role R       # 建 work/.lock；已有未逾時鎖即 exit 3
     python tools/aimctl.py unlock
+    python tools/aimctl.py chain                # yes＝佇列仍有 open 且今日續跑未達上限
     python tools/aimctl.py beat  --role R --task T --result S   # 覆寫 query/MECH.md、追加 query/RUNLOG.tsv
     python tools/aimctl.py due                  # work/M_*.md 逾期未解析里程碑
     python tools/aimctl.py loadcheck [--role R] # 固定載入位元組數；> 30,000 exit 1
@@ -22,8 +23,9 @@ ROOT = Path(__file__).resolve().parents[1]
 Q, LOG, MECH = ROOT / "query/QUEUE.md", ROOT / "query/RUNLOG.tsv", ROOT / "query/MECH.md"
 LOCK, WORK = ROOT / "work/.lock", ROOT / "work"
 TPE = timezone(timedelta(hours=8))           # 配額以台北日界計
-LOCK_TTL = timedelta(hours=3)                 # 排程 2h；逾 3h 之鎖視為殘鎖
-QUOTA = {"SCOUT-GEN": 2, "SCOUT-WATCH": 4}    # CHARTER §8
+LOCK_TTL = timedelta(minutes=90)              # 排程每小時；逾 90 分之鎖視為殘鎖
+QUOTA = {"SCOUT-GEN": 6, "SCOUT-WATCH": 6}    # CHARTER §8
+CHAIN_MAX = 20                                # 每日自動續跑上限（CHARTER §8）
 PRIO = {"AUDITOR": 0, "ANALYST": 1, "SCOUT": 2}
 LOAD = {"SCOUT": ["AIM_CHARTER.md", "AIM_FUNNEL.md"],
         "ANALYST": ["AIM_CHARTER.md"], "AUDITOR": ["AIM_CHARTER.md"]}
@@ -85,6 +87,13 @@ def cmd_pick(a):
             print(json.dumps({"role": "SCOUT", "kind": kind, "quota_used": used,
                               "quota": QUOTA[kind]}, ensure_ascii=False)); return
     print(json.dumps({"role": "IDLE", "why": "佇列空且配額用罄"}, ensure_ascii=False))
+
+
+def cmd_chain(a):
+    """佇列仍有 open 列且今日續跑未達上限 → 印 yes（由本輪觸發下一輪）；否則 no。只看佇列，不看配額。"""
+    open_n = sum(1 for r in queue() if r["status"] == "open")
+    used = runs_today("CHAIN")
+    print("yes" if open_n and used < CHAIN_MAX else "no", f"open={open_n}", f"chains={used}/{CHAIN_MAX}")
 
 
 def cmd_lock(a):
@@ -167,6 +176,7 @@ if __name__ == "__main__":
     sub.add_parser("pick").set_defaults(fn=cmd_pick)
     s = sub.add_parser("lock"); s.add_argument("--role", required=True); s.set_defaults(fn=cmd_lock)
     sub.add_parser("unlock").set_defaults(fn=cmd_unlock)
+    sub.add_parser("chain").set_defaults(fn=cmd_chain)
     s = sub.add_parser("beat")
     for k in ("role", "task", "result"):
         s.add_argument(f"--{k}", required=True)

@@ -13,7 +13,7 @@
 | v0.5 | 09-13 | 更名 AIM；委託資本；LEDGER 移出 Project knowledge；§3.2 SCORECARD；§4 載入表 |
 | v1.0 | 09-13 | 生效（使用者「請實施」）。取代 RULES／LESSONS／HUB_CORE／HANDOFF_PROTOCOL／HC_Framework_*／INSTRUMENTS／POSITIONS／P0_*／STATE，全入 Archive |
 | v1.1 | 09-14 | 起算前最後修訂，見 §3。實測 v1.0 13,755 B；v1.1 現行卡 11,338 B |
-| **v1.2** | **10-07** | 平台遷移（使用者 2026-10-07 指示；PM@CL）：SCOUT／ANALYST 由 GK 移 CL 排程（每 2 小時）；AUDITOR 改「異模型族＋不讀撰寫者對話」；狀態由 Drive＋Project knowledge 改 private repo `aim`／`aim-pm`；`aim.py sync` 廢，改 `aimctl`；§9 刪「搬運」列；§8 加 SCOUT 配額。§1、§3、§5、§7 未動。v1.2 現行卡 11,804 B。注：v1.1 自稱「起算前最後一次修訂」，本版推翻該句，理由＝使用者以 §2-10 之平台參數於起算前變更 |
+| **v1.2** | **10-07** | 平台遷移（使用者 2026-10-07 指示；PM@CL）：SCOUT／ANALYST 由 GK 移 CL 排程（每 2 小時）；AUDITOR 改「異模型族＋不讀撰寫者對話」；狀態由 Drive＋Project knowledge 改 private repo `aim`／`aim-pm`；`aim.py sync` 廢，改 `aimctl`；§9 刪「搬運」列；§8 加 SCOUT 配額。§1、§3、§5、§7 未動。v1.2 現行卡 11,804 B；同日起算前補訂（使用者授權 PM 自定頻率）：排程改每小時＋佇列自動續跑 ≤ 20 次／日，SCOUT 新生成 2→6／日、掃描 4→6 輪／日；理由＝GK 時期 4 份／日受人工搬運限制，非研究上限；配額仍保留以防多重比較（§7-8）。注：v1.1 自稱「起算前最後一次修訂」，本版推翻該句，理由＝使用者以 §2-10 之平台參數於起算前變更 |
 
 ## 1.1 路徑裁定（使用者 2026-09-15）
 
