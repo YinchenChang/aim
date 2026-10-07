@@ -4,8 +4,8 @@
 
 | R-## | 代碼 | 觸發器（原文照錄） | 可觀測來源（URL 或申報類別） | 最近檢查日 | 結果 |
 |---|---|---|---|---|---|
-| R-20 | L2-A | 新生成物 | 內部（ARCH_matrix 新生成） | — | 未檢查 |
-| R-21 | L2-I | 任一美股上市開發商或資料中心 REIT 於 10-K／10-Q 分列許可／併網撤回或附條件之已發生損失或有負債，且與租戶信用損失分列（FUNNEL §1；INDEX：見 FUNNEL §1） | EDGAR 10-K／10-Q | — | 未檢查 |
+| R-20 | L2-A | 新生成物 | 內部（ARCH_matrix 新生成） | 2026-10-07 | 未觸發。`query/ARCH_matrix.md` L2 列 A 格仍「已測｜不進 T」，無「已生成 #n」；`work/` 無 L2-A 生成卡；QUEUE 無 L2-A 列（內部檢查，無外部 URL） |
+| R-21 | L2-I | 任一美股上市開發商或資料中心 REIT 於 10-K／10-Q 分列許可／併網撤回或附條件之已發生損失或有負債，且與租戶信用損失分列（FUNNEL §1；INDEX：見 FUNNEL §1） | EDGAR 10-K／10-Q | 2026-10-07 | 未觸發。EQIX 10-Q 2026-06-30 前 100k 字無許可／併網撤回或附條件之已發生損失或有負債（URL 見 RETRIG_3 R-19，末 16k 字未讀）；DLR 10-Q 2026-06-30 損益／資產負債表無此科目，附註未讀（同上）。環境：德州州長 2026-09-21 令 TCEQ 暫停全部資料中心許可至 ERCOT 稽核完成（約 2026-12 中，https://www.bracewell.com/resources/governor-abbott-orders-tceq-to-pause-all-permit-issuance-for-data-center-projects/），屬季後事件，尚無對應 10-Q；下次以 Q3 10-Q（2026-10 底起）再查。其他開發商未逐查 |
 | R-22 | L1-A | 10-K分列已鎖定PPA單價與殘差現貨／關稅且可畫兩期 | EDGAR 10-K／10-Q | — | 未檢查 |
 | R-23 | L1-I | ISO／RTO佇列或LBNL年報分列已繳保證金／場址控制／財務承諾MW vs 裸申請且可畫兩期 | ISO／RTO 佇列；LBNL Queued Up 年報 | — | 未檢查 |
 | R-24 | L3-A | 申報分列節點ASP或封裝營收與層別良率且可與晶粒面積對帳 | EDGAR 10-K／10-Q | — | 未檢查 |
