@@ -10,6 +10,7 @@
 |---|---|---|---|---|---|
 | L2-A | 資料中心實體：會計恆等 | 測一不過 | **已測｜不進 T**（測二 `1wTcfoN_X2IsFFvMemdW6V8FJCFZ8f8Mw`） | 表達點 (ii)(iii) 未派；升級需新生成物 | ANALYST@GK |
 | L2-I | 資料中心實體：誘因 | 測一部分通過 | **部分通過｜不進 T**（測一 `1S8FeDY2MXqTCc20IKToblDC5HFJIFb5U`） | 三題已答、不轉個股層、不進 T（`1fwgTwX9Y8KyxTu-ZACyMGDYYzqfV9kYm`）；複查觸發器：任一美股上市開發商或資料中心 REIT 於 10-K／10-Q 分列許可／併網撤回或附條件之已發生損失或有負債，且與租戶信用損失分列 | ANALYST@GK |
+| L2-P#2 | 資料中心實體：守恆 | 介質／設計 kW/櫃 封頂；DLR 只依規模（0–1MW／>1MW）分列、EQIX 只定性風險句；MW 依介質之分列不可並列 | **測一不通過｜不進 T**（測一 `work/20261007_L2-P#2_test1_CL.md`；生成 `archive/work/20261007_L2-P#2_generate_CL.md`；否決(1)；(5) 同向；(2) 不可判） | 不進 T；不改 L2-A／L2-I／C-P4；複查觸發器見測一 D | ANALYST@CL |
 | L5-P | 儲存與 IO：守恆 | decode 吞吐上界＝BW／V_byte | **T 已寫｜不進 L**（T `1UmDKbRjqelgHJT-OhEZbbMwh901a6HjF`；L `1LzNAqiarKn8ifd2XdKVBSduEzBwMaujv`；不凍結、不進 M、不改判） | 不進 M；複查沿 T；測一 `1hlVhP20CVVYzTcEju13raU1ITCzGoFbd` | ANALYST@GK |
 | L6-P | 雲端：守恆 | 作業 MTTF∝1/N，ETTR 隨 N 降 | **T 已寫｜不進 L**（T `1jqXZVzNmCNPF8V0y9pqsTGiq8Fkk51VW`） | 複查沿 T；測一 `1n2WEG0EcPatT2OHbcyx2KFIhBNgFJ9-x` | ANALYST@GK |
 | L6-I | 雲端：誘因 | backlog 變厚≠對手方變好 | **T 已寫｜不進 L**（T `18Lq7CSVcs7Wgjr7zlGG4QvHwrdIu9-gz`） | 複查沿 T；測一 `1fNjiUcUe9YH12iXl1bWbffhbmEmp3iIr` | ANALYST@GK |
@@ -44,7 +45,7 @@
 | T-15 CoreWeave 空方 | **委託資本外**（C1.0 §9-2，記於 `query/CHARTER_HIST.md`），非殺 | 不適用 |
 
 ## 3. 待測格（全表＝`query/ARCH_matrix.md`）
-「已生成」未測 1 格：L2-P#2（`work/20261007_L2-P#2_generate_CL.md`，SCOUT@CL 2026-10-07），待 ANALYST 測一（QUEUE Q-0001）。L15-I 已入 §1。L15-A 已入 §1。L15-P 已入 §1。L14-P／L14-A／L14-I 已入 §1。逐格處理，填不出標【未生成】；格狀態只寫 ARCH_matrix 與 §1。
+「已生成」未測 0 格。L2-P#2 已入 §1（ANALYST@CL 2026-10-07，QUEUE Q-0001 done）。L15-I 已入 §1。L15-A 已入 §1。L15-P 已入 §1。L14-P／L14-A／L14-I 已入 §1。逐格處理，填不出標【未生成】；格狀態只寫 ARCH_matrix 與 §1。
 
 ## 5. 未完成遷移項（C1.2；完成即刪）
 1. §4 SCOUT 固定載入上限 16 KB 與實際（CHARTER＋FUNNEL ≈ 20.6 KB）不一致；待季修裁定，暫以 30 KB 總上限（§8）為準。
