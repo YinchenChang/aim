@@ -1,6 +1,6 @@
 # RETRIG — 複查觸發器掃描表（1/2；SCOUT-WATCH 用，CHARTER §7-2）
 <!-- BY: SCOUT@CL | MODEL: Claude Opus 5.5【自報】 | CHARTER: AIM-C1.2 | CONSUMES: query/ARCH_dead.md；query/INDEX.json；AIM_FUNNEL.md | EMITS: query/RETRIG.md -->
-**日期：** 2026-10-07　**建表：** SCOUT@CL（runbooks/SCOUT.md §B-1）。本表 R-01–R-19＝`query/ARCH_dead.md` 全列；R-20 起見 `query/RETRIG_2.md`（INDEX／FUNNEL 補列，ARCH_dead 已涵蓋之碼不重列）。觸發器原文照錄，不改寫、不補定義。結果只三種：未觸發／觸發／無法判定（失敗歸因）。
+**日期：** 2026-10-07　**建表：** SCOUT@CL（runbooks/SCOUT.md §B-1）。本表 R-01–R-12＝`query/ARCH_dead.md` #1–#12；R-13–R-19（ARCH_dead #13–#19）見 `query/RETRIG_3.md`（2026-10-07 因 8 KB 上限拆出）；R-20 起見 `query/RETRIG_2.md`（INDEX／FUNNEL 補列，ARCH_dead 已涵蓋之碼不重列）。觸發器原文照錄，不改寫、不補定義。結果只三種：未觸發／觸發／無法判定（失敗歸因）。
 
 | R-## | 代碼 | 觸發器（原文照錄） | 可觀測來源（URL 或申報類別） | 最近檢查日 | 結果 |
 |---|---|---|---|---|---|
@@ -16,10 +16,3 @@
 | R-10 | C-I1 | 已上市、估值可歸因於「模型權重能力」而非執行層工程之標的對照 | EDGAR／上市標的估值資料 | 2026-10-07 | 無法判定（失敗歸因：「估值可歸因」無可觀測之拆分載體；C-I1 原論點 repo 無副本）。檢得上市主體：Zhipu AI 港交所 2026-01-08、MiniMax 港交所 2026-01-09，報導以模型能力對標敘估值，未拆權重 vs 執行層（https://restofworld.org/2026/zhipu-ai-minimax-ipo/）；美股前沿模型商未上市（Anthropic／OpenAI 僅機密 S-1）。非存在性主張 |
 | R-11 | C-P1 | 營運商揭露 checkpoint 讀取占復原 >50%；儲存分列訓練／推論且訓練側成長不低於 GPU；非同步 checkpoint 三年採用 <50% | 營運商技術揭露；EDGAR 10-K | 2026-10-07 | 無法判定（失敗歸因：三件以分號連接，原文未定 且／或；本輪只查第一件）。第一件未成立：Meta 2026 HSDP 10 萬 GPU 論文將 checkpoint 取回併入「Other loading overhead」、稱不隨規模顯著成長，主耗時為配置／NCCL／首步（https://arxiv.org/pdf/2602.00277）；EDGAR FTS 同三詞 10-K/10-Q 2026＝1 筆（CHRN 附件 ToS，非揭露）。第二、三件未查 |
 | R-12 | C-I2 | 上市主體毛利擴張經管理層歸因專家單價上升；或人類回饋支出分離為獨立科目 | EDGAR 10-K／10-Q MD&A | 2026-10-07 | 未觸發。INOD Q2 2026 法說（2026-08-06）將毛利擴張歸因於高價值預訓練專案與現成資料集組合、自留 IP 資料集，未歸因專家單價（https://www.nasdaq.com/articles/innodata-q2-earnings-call-highlights）；INOD 10-Q 2026-06-30 MD&A 未讀到（URL 同 R-02）；EDGAR FTS "expert"+"gross margin"+"human feedback" 10-K/10-Q 2026＝1 筆（CRWD，資安，非此機制）。人類回饋支出獨立科目：買方側未逐查 |
-| R-13 | C-A5 | 任一前沿 API 商 IPO，或 10-Q 首次分列 API 已實現單價 | EDGAR S-1／F-1；10-Q | — | 未檢查 |
-| R-14 | C-I3′ | 該公司 10-K 首次出現本機制之利益分列 | EDGAR 10-K | — | 未檢查 |
-| R-15 | N-02 | 同利益分列觸發器 | EDGAR 10-K | — | 未檢查 |
-| R-16 | C-P3 | 同 C-A5 | EDGAR S-1／F-1；10-Q | — | 未檢查 |
-| R-17 | N-01 | GOOGL 首次分列 TPU 外部產品線，或 NVDA 分列異質／舊卡折價利益 | EDGAR 10-K（GOOGL、NVDA） | — | 未檢查 |
-| R-18 | C-I5 | CRM／NOW／SNOW 首次按 AI 採用時序分群披露留存，或 AI vs 非 AI 之 NRR | EDGAR 10-K／10-Q（CRM、NOW、SNOW） | — | 未檢查 |
-| R-19 | C-P4 | 某 DC REIT／冷卻商首次以美元分列水約束所致延期或成本 | EDGAR 10-K（DC REIT／冷卻商） | — | 未檢查 |
