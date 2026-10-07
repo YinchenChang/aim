@@ -13,9 +13,9 @@
 | R-07 | 能力上限／Confidential／自動化 R&D | — | 無（無觸發器） | 2026-10-07 | 無法判定（失敗歸因：原文無觸發器，ARCH_dead #7 觸發器欄為「—」、載體【未摘】；無可 fetch 之對象）。非存在性主張 |
 | R-08 | VEEV | 出現具名反方論述 | 公開具名反方論述（研報／媒體） | 2026-10-07 | 無法判定（失敗歸因：VEEV 原論點之方向與內容【未摘】、repo 無副本，無法判定何者構成「反方」）。檢得具名論述：Morgan Stanley Craig Hettenbach 2023-06-28 降 Underweight，理由 Salesforce 進入生命科學 CRM（https://finance.yahoo.com/news/veeva-veev-falls-nearly-3-130500221.html）；2026-07-21 報導 Evercore ISI Kirk Materne、BMO Sean Dodge 列最低目標價、理由 CRM 客戶轉 Salesforce（https://www.quiverquant.com/news/Veeva+Systems+Slides+as+Investors+Revisit+AI,+CRM+Migration,+and+Valuation+Risks，AI 生成稿）；Kevin Bird 2026-03-09 遷移風險分析（https://www.theinvestmentlog.com/posts/veev/2026-03-09）。原論點取回前不判觸發 |
 | R-09 | C-A2 | L9 對應論點達門檻且條款非可撤回、單位經濟揭露恢復 | 內部（L9 論點）＋EDGAR 單位經濟揭露 | 2026-10-07 | 未觸發。前件「L9 對應論點達門檻」未成立：`query/INDEX.json` L9-P＝已殺、L9-A／L9-I＝已測｜不進 T；FUNNEL §1 無 L9 現役列。後兩件（條款可撤回性、單位經濟揭露）因合取前件不成立本輪未查 |
-| R-10 | C-I1 | 已上市、估值可歸因於「模型權重能力」而非執行層工程之標的對照 | EDGAR／上市標的估值資料 | — | 未檢查 |
-| R-11 | C-P1 | 營運商揭露 checkpoint 讀取占復原 >50%；儲存分列訓練／推論且訓練側成長不低於 GPU；非同步 checkpoint 三年採用 <50% | 營運商技術揭露；EDGAR 10-K | — | 未檢查 |
-| R-12 | C-I2 | 上市主體毛利擴張經管理層歸因專家單價上升；或人類回饋支出分離為獨立科目 | EDGAR 10-K／10-Q MD&A | — | 未檢查 |
+| R-10 | C-I1 | 已上市、估值可歸因於「模型權重能力」而非執行層工程之標的對照 | EDGAR／上市標的估值資料 | 2026-10-07 | 無法判定（失敗歸因：「估值可歸因」無可觀測之拆分載體；C-I1 原論點 repo 無副本）。檢得上市主體：Zhipu AI 港交所 2026-01-08、MiniMax 港交所 2026-01-09，報導以模型能力對標敘估值，未拆權重 vs 執行層（https://restofworld.org/2026/zhipu-ai-minimax-ipo/）；美股前沿模型商未上市（Anthropic／OpenAI 僅機密 S-1）。非存在性主張 |
+| R-11 | C-P1 | 營運商揭露 checkpoint 讀取占復原 >50%；儲存分列訓練／推論且訓練側成長不低於 GPU；非同步 checkpoint 三年採用 <50% | 營運商技術揭露；EDGAR 10-K | 2026-10-07 | 無法判定（失敗歸因：三件以分號連接，原文未定 且／或；本輪只查第一件）。第一件未成立：Meta 2026 HSDP 10 萬 GPU 論文將 checkpoint 取回併入「Other loading overhead」、稱不隨規模顯著成長，主耗時為配置／NCCL／首步（https://arxiv.org/pdf/2602.00277）；EDGAR FTS 同三詞 10-K/10-Q 2026＝1 筆（CHRN 附件 ToS，非揭露）。第二、三件未查 |
+| R-12 | C-I2 | 上市主體毛利擴張經管理層歸因專家單價上升；或人類回饋支出分離為獨立科目 | EDGAR 10-K／10-Q MD&A | 2026-10-07 | 未觸發。INOD Q2 2026 法說（2026-08-06）將毛利擴張歸因於高價值預訓練專案與現成資料集組合、自留 IP 資料集，未歸因專家單價（https://www.nasdaq.com/articles/innodata-q2-earnings-call-highlights）；INOD 10-Q 2026-06-30 MD&A 未讀到（URL 同 R-02）；EDGAR FTS "expert"+"gross margin"+"human feedback" 10-K/10-Q 2026＝1 筆（CRWD，資安，非此機制）。人類回饋支出獨立科目：買方側未逐查 |
 | R-13 | C-A5 | 任一前沿 API 商 IPO，或 10-Q 首次分列 API 已實現單價 | EDGAR S-1／F-1；10-Q | — | 未檢查 |
 | R-14 | C-I3′ | 該公司 10-K 首次出現本機制之利益分列 | EDGAR 10-K | — | 未檢查 |
 | R-15 | N-02 | 同利益分列觸發器 | EDGAR 10-K | — | 未檢查 |
