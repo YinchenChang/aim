@@ -14,6 +14,7 @@
 | L2-A#2 | 資料中心實體：會計恆等 | 利息資本化比率上升墊高 AFFO；DLR 五季 21%→25%、EQIX 2023→2025 6%→13%；兩家 AFFO 調節皆無資本化利息行；占 AFFO 約 3–4% | **測一通過｜不進 T**（測一 `work/20261007_L2-A#2_test1_CL.md`；生成 `archive/work/20261007_L2-A#2_generate_CL.md`；(1)(2)(4)(5) 未觸發；(3) 不可判；量級不足） | 不進 T；不改 L2-A#1／L2-P#2／L2-I／C-P4／L6-A／L13-A；複查觸發器見測一 D | ANALYST@CL |
 | L2-I#2 | 資料中心實體：誘因 | 開發 JV 之 GP 兼買方：DLR 收購 Dulles 9／Brickyard JV 64% 交割即達 promote 門檻；promote 201 入收入並計入收購成本基礎；頭條與指引皆拆出不含口徑 | **測一通過｜不進 T**（測一 `work/20261007_L2-I#2_test1_CL.md`；生成 `archive/work/20261007_L2-I#2_generate_CL.md`；(1)(2)(4)(5) 未觸發；(3) 不可判；R1＋量級／重複性不足） | 不進 T；不改 L2-I#1／L2-A#2／L2-P#2／L13-A／C-A3／C-A4；複查觸發器見測一 D | ANALYST@CL |
 | L8-A#2 | 標註／驗證：會計恆等 | 未開票收入：unit-priced 依產出認列、帳單後開；TaskUs 未開票約季營收 41% | **測一不通過｜不進 T**（測一 `work/20261007_L8-A#2_test1_CL.md`；生成 `archive/work/20261007_L8-A#2_generate_CL.md`；(1)(3) 觸發；(2) 不可判；(4)(5) 未觸發；未開票不分服務線，6 季增量與 AI 無同向） | 不進 T；不改 L8-A#1／L8-I／L8-P／C-I2／L13-I；複查觸發器見測一 D | ANALYST@CL |
+| L8-I#2 | 標註／驗證：誘因 | 買方（Meta）持股競爭供應商（Scale）→ 最大客戶量轉移；TaskUs Customer A 26%→20% | **測一不通過｜不進 T**（測一 `work/20261007_L8-I#2_test1_CL.md`；生成 `archive/work/20261007_L8-I#2_generate_CL.md`；(1)(2) 觸發；(3)(4)(5) 未觸發；管理層歸因自動化落 T&S；Meta 轉用 Surge／Mercor） | 不進 T；不改 L8-I#1／L8-A#1／L8-A#2／L8-P／C-I2／L13-I；複查觸發器見測一 D | ANALYST@CL |
 | L5-P | 儲存與 IO：守恆 | decode 吞吐上界＝BW／V_byte | **T 已寫｜不進 L**（T `1UmDKbRjqelgHJT-OhEZbbMwh901a6HjF`；L `1LzNAqiarKn8ifd2XdKVBSduEzBwMaujv`；不凍結、不進 M、不改判） | 不進 M；複查沿 T；測一 `1hlVhP20CVVYzTcEju13raU1ITCzGoFbd` | ANALYST@GK |
 | L6-P | 雲端：守恆 | 作業 MTTF∝1/N，ETTR 隨 N 降 | **T 已寫｜不進 L**（T `1jqXZVzNmCNPF8V0y9pqsTGiq8Fkk51VW`） | 複查沿 T；測一 `1n2WEG0EcPatT2OHbcyx2KFIhBNgFJ9-x` | ANALYST@GK |
 | L6-I | 雲端：誘因 | backlog 變厚≠對手方變好 | **T 已寫｜不進 L**（T `18Lq7CSVcs7Wgjr7zlGG4QvHwrdIu9-gz`） | 複查沿 T；測一 `1fNjiUcUe9YH12iXl1bWbffhbmEmp3iIr` | ANALYST@GK |
@@ -48,7 +49,7 @@
 | T-15 CoreWeave 空方 | **委託資本外**（C1.0 §9-2，記於 `query/CHARTER_HIST.md`），非殺 | 不適用 |
 
 ## 3. 待測格（全表＝`query/ARCH_matrix.md`）
-「已生成」未測 1 格：L8-I#2（`work/20261007_L8-I#2_generate_CL.md`，SCOUT@CL 2026-10-07），待 ANALYST 測一（QUEUE Q-0005）。L8-A#2 已入 §1（ANALYST@CL 2026-10-07，QUEUE Q-0004 done）。L2-I#2 已入 §1（ANALYST@CL 2026-10-07，QUEUE Q-0003 done）。L2-A#2 已入 §1（ANALYST@CL 2026-10-07，QUEUE Q-0002 done）。L2-P#2 已入 §1（ANALYST@CL 2026-10-07，QUEUE Q-0001 done）。L15-I 已入 §1。L15-A 已入 §1。L15-P 已入 §1。L14-P／L14-A／L14-I 已入 §1。逐格處理，填不出標【未生成】；格狀態只寫 ARCH_matrix 與 §1。
+「已生成」未測 0 格。L8-I#2 已入 §1（ANALYST@CL 2026-10-07，QUEUE Q-0005 done）。L8-A#2 已入 §1（ANALYST@CL 2026-10-07，QUEUE Q-0004 done）。L2-I#2 已入 §1（ANALYST@CL 2026-10-07，QUEUE Q-0003 done）。L2-A#2 已入 §1（ANALYST@CL 2026-10-07，QUEUE Q-0002 done）。L2-P#2 已入 §1（ANALYST@CL 2026-10-07，QUEUE Q-0001 done）。L15-I 已入 §1。L15-A 已入 §1。L15-P 已入 §1。L14-P／L14-A／L14-I 已入 §1。逐格處理，填不出標【未生成】；格狀態只寫 ARCH_matrix 與 §1。
 
 ## 5. 未完成遷移項（C1.2；完成即刪）
 1. §4 SCOUT 固定載入上限 16 KB 與實際（CHARTER＋FUNNEL ≈ 20.6 KB）不一致；待季修裁定，暫以 30 KB 總上限（§8）為準。
