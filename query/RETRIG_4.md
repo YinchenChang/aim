@@ -1,9 +1,14 @@
-# RETRIG_4 — 複查觸發器掃描表（續 2/2 之 R-36–R-46）
+# RETRIG_4 — 複查觸發器掃描表（續 2/2 之 R-31–R-46）
 <!-- BY: SCOUT@CL | MODEL: Claude Opus 5.5【自報】 | CHARTER: AIM-C1.2 | CONSUMES: query/RETRIG_2.md | EMITS: query/RETRIG_4.md -->
-**日期：** 2026-10-07　**拆出：** SCOUT@CL（`query/RETRIG_2.md` 將逾 8 KB，runbooks/SCOUT.md §B-1）。列內容自 RETRIG_2.md 原樣移入；規則同 RETRIG.md。
+**日期：** 2026-10-07　**拆出：** SCOUT@CL（`query/RETRIG_2.md` 將逾 8 KB，runbooks/SCOUT.md §B-1）。列內容自 RETRIG_2.md 原樣移入（R-31–R-35 於 2026-10-08 移入）；規則同 RETRIG.md。
 
 | R-## | 代碼 | 觸發器（原文照錄） | 可觀測來源（URL 或申報類別） | 最近檢查日 | 結果 |
 |---|---|---|---|---|---|
+| R-31 | L7-P | 10-K／10-Q／20-F同檔分列推論FLOP與每token或每FLOP焦耳 | EDGAR 10-K／10-Q／20-F | 2026-10-08 | 未觸發（NVDA 半）。NVDA 10-Q 期末 2026-07-26 前 100k 字無推論 FLOP、joules/token、joules/FLOP 或 tokens/watt 數值，僅「4.25 gigawatts of IT load」租約容量（https://www.opencapital.sh/filings/0001045810-26-000075.md，二手鏡像摘要讀取，末 17k 字未讀）；NVDA 每 token 焦耳僅見於行銷 FAQ，非申報（https://perspectives.nvidia.com/ai-infrastructure/total-cost-of-ownership/task/faq/accelerator-architectures-joules-per-token-efficiency-llm-inference/）。EDGAR FTS 與 sec.gov 直讀本輪未獲許可（失敗歸因），其他申報人未查，非存在性主張 |
+| R-32 | L7-A | 同檔並列檔位列表價與每百萬token FLOP；或10-K／10-Q／20-F同檔分列已實現單價與每FLOP成本 | EDGAR 10-K／10-Q／20-F | 2026-10-08 | 未觸發。MiniMax H1 2026 業績（港交所中期，非 10-K／10-Q／20-F）二手分析：只給 token 消耗量倍數與毛利率 17.9%，無已實現單價、檔位列表價、每百萬 token FLOP 或每 FLOP 成本（https://beancount.io/pt/blog/2026/08/31/minimax-h1-2026-earnings-analysis；原文 https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0826/2026082600680.pdf 未讀）；Troutman 2026-06-18（2026-08-28 修）談 token 成本 MD&A 揭露，未引任何申報（https://troutman.com/insights/ai-token-costs-and-mda-disclosure）。EDGAR FTS「per million tokens」本輪未獲許可（失敗歸因），非存在性主張 |
+| R-33 | L7-I | 授權頁同頁分列持有人與holdout排除且可與標明版本的分數時序對照；或10-K／10-Q／20-F同檔分列評測取用支出與該評測分數 | 條款／授權頁；EDGAR 10-K／10-Q | 2026-10-08 | 未觸發（授權頁半）。Epoch FrontierMath 頁（2025-01-23，早於測一）同頁列 OpenAI 持有／取用與 50 題 holdout 僅給題面，但無標明版本之 holdout 分數時序（https://epoch.ai/blog/openai-and-frontiermath）；benchlm 2026-10-02 分列 v2 Tiers 1-3 與 Tier 4 private-set、模型標版本，但無逐筆分數日期、未稱 holdout、非授權頁同頁（https://benchlm.ai/md/benchmarks/frontiermath.md）。10-K 評測支出半未查 |
+| R-34 | L10-P | 10-K／10-Q／20-F同檔分列端側能量或殼溫／降頻門檻與留端vs回雲功能類或請求占比，且標明裝置類與是否含無線電 | EDGAR 10-K／10-Q／20-F | — | 未檢查 |
+| R-35 | L10-A | 10-K／10-Q／20-F同檔分列轉介量或因此離開平台之點擊與每次分潤率或TAC÷該轉介收入，且標明分潤率是否內生於轉介量 | EDGAR 10-K／10-Q／20-F | — | 未檢查 |
 | R-36 | L10-I | 執法決定或實施細則與同一主體選擇畫面上線日可對照，且公開選擇次數或預設切換率之時序（標明裝置類與是否含既有使用者，不只新機） | 執法決定／實施細則；選擇畫面公告 | — | 未檢查 |
 | R-37 | L11-A | 10-K／10-Q／20-F同檔分列曝光數或已交付廣告次數之水準與每次曝光價或每次廣告均價之水準，且標明價是否內生於量、曝光變動是否來自代理式瀏覽 | EDGAR 10-K／10-Q／20-F | — | 未檢查 |
 | R-38 | L11-I | 任一主要平台之 agent API 授權條款同頁寫明注意力或廣告存量是使用者之代理可行使之權利，且該權利為合約性而非結構性預設槽，並標明生效日 | 條款／授權頁；EDGAR 10-K／10-Q | — | 未檢查 |

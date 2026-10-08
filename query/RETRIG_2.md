@@ -1,6 +1,6 @@
-# RETRIG_2 — 複查觸發器掃描表（2/2；R-20–R-35）
+# RETRIG_2 — 複查觸發器掃描表（2/2；R-20–R-30）
 <!-- BY: SCOUT@CL | MODEL: Claude Opus 5.5【自報】 | CHARTER: AIM-C1.2 | CONSUMES: query/INDEX.json；AIM_FUNNEL.md §1 | EMITS: query/RETRIG_2.md -->
-**日期：** 2026-10-07　**建表：** SCOUT@CL。續 `query/RETRIG.md`；來源＝`query/INDEX.json` 各碼 `retrigger`（L2-I 依 INDEX 指向取 FUNNEL §1 原文）。規則同 RETRIG.md。R-36–R-46 於 2026-10-07 因 8 KB 上限原樣移至 `query/RETRIG_4.md`。
+**日期：** 2026-10-07　**建表：** SCOUT@CL。續 `query/RETRIG.md`；來源＝`query/INDEX.json` 各碼 `retrigger`（L2-I 依 INDEX 指向取 FUNNEL §1 原文）。規則同 RETRIG.md。R-36–R-46 於 2026-10-07、R-31–R-35 於 2026-10-08 因 8 KB 上限原樣移至 `query/RETRIG_4.md`。
 
 | R-## | 代碼 | 觸發器（原文照錄） | 可觀測來源（URL 或申報類別） | 最近檢查日 | 結果 |
 |---|---|---|---|---|---|
@@ -15,8 +15,3 @@
 | R-28 | L5-A | 10-K分列儲存vs運算或KV／context-cache營收且可與價目對帳 | EDGAR 10-K／10-Q | 2026-10-08 | 未觸發（SNOW 半）。SNOW FY2026 10-K（期末 2026-01-31）全文兩段摘要讀取：僅稱客戶消耗 compute／storage／data transfer、依消耗認列，無儲存 vs 運算美元或比例分列、無 KV／context-cache 營收（https://www.sec.gov/Archives/edgar/data/1640147/000164014726000008/snow-20260131.htm）；網搜「10-K＋context/prompt caching 營收」只回價目評論稿。超大規模雲與 API 商未逐查 |
 | R-29 | L5-I | 10-K分列出站／切換貸項或價目拆切換vs並行；或裁定出站＝違法切換 | EDGAR 10-K／10-Q | 2026-10-08 | 未觸發（裁定半）。Arcep 2026-07-02 只通過 SREN 指引（切換收費成本分類、多雲出站成本拆分），未裁定任一業者出站列違法（https://en.arcep.fr/news/press-releases/view/n/cloud-computing-020726.html）；法國部令 2025-11-17 定切換出站上限 0 歐元，早於測一 2026-09-26，屬法定上限非個案裁定（https://en.arcep.fr/news/press-releases/view/n/cloud-computing-160226.html）。Data Act 切換收費 2027-01-12 起禁止，測一所列檢查點在其後。10-K 貸項半未查 |
 | R-30 | L6-A | 10-K同表分列已簽未交付MW或signed-not-commenced年化租金 vs 已交付／已計費且可畫兩期 | EDGAR 10-K／10-Q | 2026-10-08 | 未觸發。CRWV 10-Q 2026-06-30 前 100k 字只 RPO $103.7B 單一日、無 MW 同表（https://www.sec.gov/Archives/edgar/data/0001769628/000176962826000366/crwv-20260630.htm，末 29k 字未讀）；測一（2026-09-27）已記 CORZ 10-Q 同表三期、APLD FY26 10-K 單期，皆試前載體非新事件；網搜未見測一後新 10-K（https://www.sec.gov/Archives/edgar/data/0001144879/000114487926000048/apld-20260531.htm 為試前）。下次以 Q3 10-Q（2026-11）再查 |
-| R-31 | L7-P | 10-K／10-Q／20-F同檔分列推論FLOP與每token或每FLOP焦耳 | EDGAR 10-K／10-Q／20-F | — | 未檢查 |
-| R-32 | L7-A | 同檔並列檔位列表價與每百萬token FLOP；或10-K／10-Q／20-F同檔分列已實現單價與每FLOP成本 | EDGAR 10-K／10-Q／20-F | — | 未檢查 |
-| R-33 | L7-I | 授權頁同頁分列持有人與holdout排除且可與標明版本的分數時序對照；或10-K／10-Q／20-F同檔分列評測取用支出與該評測分數 | 條款／授權頁；EDGAR 10-K／10-Q | — | 未檢查 |
-| R-34 | L10-P | 10-K／10-Q／20-F同檔分列端側能量或殼溫／降頻門檻與留端vs回雲功能類或請求占比，且標明裝置類與是否含無線電 | EDGAR 10-K／10-Q／20-F | — | 未檢查 |
-| R-35 | L10-A | 10-K／10-Q／20-F同檔分列轉介量或因此離開平台之點擊與每次分潤率或TAC÷該轉介收入，且標明分潤率是否內生於轉介量 | EDGAR 10-K／10-Q／20-F | — | 未檢查 |
