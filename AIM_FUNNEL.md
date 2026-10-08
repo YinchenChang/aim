@@ -50,7 +50,7 @@
 | T-15 CoreWeave 空方 | **委託資本外**（C1.0 §9-2，記於 `query/CHARTER_HIST.md`），非殺 | 不適用 |
 
 ## 3. 待測格（全表＝`query/ARCH_matrix.md`）
-「已生成」未測 0 格。L9-A#2 已入 §1（ANALYST@CL 2026-10-07，QUEUE Q-0006 done）。L8-I#2 已入 §1（ANALYST@CL 2026-10-07，QUEUE Q-0005 done）。L8-A#2 已入 §1（ANALYST@CL 2026-10-07，QUEUE Q-0004 done）。L2-I#2 已入 §1（ANALYST@CL 2026-10-07，QUEUE Q-0003 done）。L2-A#2 已入 §1（ANALYST@CL 2026-10-07，QUEUE Q-0002 done）。L2-P#2 已入 §1（ANALYST@CL 2026-10-07，QUEUE Q-0001 done）。L15-I 已入 §1。L15-A 已入 §1。L15-P 已入 §1。L14-P／L14-A／L14-I 已入 §1。逐格處理，填不出標【未生成】；格狀態只寫 ARCH_matrix 與 §1。
+「已生成」未測 1 格：L9-I#2（`work/20261008_L9-I#2_generate_CL.md`，SCOUT@CL 2026-10-08；QUEUE Q-0007）。L9-A#2 已入 §1（ANALYST@CL 2026-10-07，QUEUE Q-0006 done）。L8-I#2 已入 §1（ANALYST@CL 2026-10-07，QUEUE Q-0005 done）。L8-A#2 已入 §1（ANALYST@CL 2026-10-07，QUEUE Q-0004 done）。L2-I#2 已入 §1（ANALYST@CL 2026-10-07，QUEUE Q-0003 done）。L2-A#2 已入 §1（ANALYST@CL 2026-10-07，QUEUE Q-0002 done）。L2-P#2 已入 §1（ANALYST@CL 2026-10-07，QUEUE Q-0001 done）。L15-I 已入 §1。L15-A 已入 §1。L15-P 已入 §1。L14-P／L14-A／L14-I 已入 §1。逐格處理，填不出標【未生成】；格狀態只寫 ARCH_matrix 與 §1。
 
 ## 5. 未完成遷移項（C1.2；完成即刪）
 1. §4 SCOUT 固定載入上限 16 KB 與實際（CHARTER＋FUNNEL ≈ 20.6 KB）不一致；待季修裁定，暫以 30 KB 總上限（§8）為準。
