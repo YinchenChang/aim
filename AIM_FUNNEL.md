@@ -17,6 +17,7 @@
 | L8-I#2 | 標註／驗證：誘因 | 買方（Meta）持股競爭供應商（Scale）→ 最大客戶量轉移；TaskUs Customer A 26%→20% | **測一不通過｜不進 T**（測一 `work/20261007_L8-I#2_test1_CL.md`；生成 `archive/work/20261007_L8-I#2_generate_CL.md`；(1)(2) 觸發；(3)(4)(5) 未觸發；管理層歸因自動化落 T&S；Meta 轉用 Surge／Mercor） | 不進 T；不改 L8-I#1／L8-A#1／L8-A#2／L8-P／C-I2／L13-I；複查觸發器見測一 D | ANALYST@CL |
 | L9-A#2 | 受規管 HITL：會計恆等 | PSAV 以毛節省計費 vs 聯邦 IDR 提供者勝約 85–88%；NSA／IDR 收入不與其他 PSAV 分列；Unbilled IDR fees 性質未揭露、序列非單調 | **測一不通過｜不進 T**（測一 `work/20261007_L9-A#2_test1_CL.md`；生成 `archive/work/20261007_L9-A#2_generate_CL.md`；(2) 觸發；(1)(3) 不可判；(4)(5) 未觸發；credits 條文最自然讀法涵蓋 IDR 敗訴） | 不進 T；不改 L9-A#1／L9-I／L9-P／C-A1／C-I5／L2-A#2；複查觸發器見測一 D | ANALYST@CL |
 | L9-I#2 | 受規管 HITL：誘因 | 付款方初判拒付之不申訴留存率 ≈ 9 成（MA 申訴 11.5%、翻案 80.7%）；人類簽核作法律掩護、AI 降拒付邊際成本 | **測一不通過｜不進 T**（測一 `work/20261008_L9-I#2_test1_CL.md`；生成 `archive/work/20261008_L9-I#2_generate_CL.md`；(2) 觸發；(1)(3)(4)(5) 未觸發；AI 連結只剩 L9-P 型載體；量級橋不可得） | 不進 T；不改 L9-I#1／L9-A#1／L9-A#2／L9-P／C-A1／C-I5；複查觸發器見測一 D | ANALYST@CL |
+| L12-P#2 | 監理與法制：守恆 | FDA CDRH 審查流量 L＝λW vs「AI 壓縮審查」敘事；PMA FDA 日 FY23–25 169→173 持平、λ 69→88；510(k) λ +13.5%、90 FDA 日達標 98–99%；拉長屬總日／申請人日 | **測一不通過｜不進 T**（測一 `work/20261008_L12-P#2_test1_CL.md`；生成 `archive/work/20261008_L12-P#2_generate_CL.md`；(2)(3) 觸發；(1)(4)(5) 未觸發；AI 歸因只剩 L9-P 型單任務工時載體） | 不進 T；不改 L12-P#1／L12-A／L12-I／L9-P；複查觸發器見測一 D | ANALYST@CL |
 | L5-P | 儲存與 IO：守恆 | decode 吞吐上界＝BW／V_byte | **T 已寫｜不進 L**（T `1UmDKbRjqelgHJT-OhEZbbMwh901a6HjF`；L `1LzNAqiarKn8ifd2XdKVBSduEzBwMaujv`；不凍結、不進 M、不改判） | 不進 M；複查沿 T；測一 `1hlVhP20CVVYzTcEju13raU1ITCzGoFbd` | ANALYST@GK |
 | L6-P | 雲端：守恆 | 作業 MTTF∝1/N，ETTR 隨 N 降 | **T 已寫｜不進 L**（T `1jqXZVzNmCNPF8V0y9pqsTGiq8Fkk51VW`） | 複查沿 T；測一 `1n2WEG0EcPatT2OHbcyx2KFIhBNgFJ9-x` | ANALYST@GK |
 | L6-I | 雲端：誘因 | backlog 變厚≠對手方變好 | **T 已寫｜不進 L**（T `18Lq7CSVcs7Wgjr7zlGG4QvHwrdIu9-gz`） | 複查沿 T；測一 `1fNjiUcUe9YH12iXl1bWbffhbmEmp3iIr` | ANALYST@GK |
@@ -51,7 +52,7 @@
 | T-15 CoreWeave 空方 | **委託資本外**（C1.0 §9-2，記於 `query/CHARTER_HIST.md`），非殺 | 不適用 |
 
 ## 3. 待測格（全表＝`query/ARCH_matrix.md`）
-「已生成」未測 1 格：L12-P#2（`work/20261008_L12-P#2_generate_CL.md`，SCOUT@CL 2026-10-08；QUEUE Q-0008）。L9-I#2 已入 §1（ANALYST@CL 2026-10-08，QUEUE Q-0007 done）。L9-A#2 已入 §1（ANALYST@CL 2026-10-07，QUEUE Q-0006 done）。L8-I#2 已入 §1（ANALYST@CL 2026-10-07，QUEUE Q-0005 done）。L8-A#2 已入 §1（ANALYST@CL 2026-10-07，QUEUE Q-0004 done）。L2-I#2 已入 §1（ANALYST@CL 2026-10-07，QUEUE Q-0003 done）。L2-A#2 已入 §1（ANALYST@CL 2026-10-07，QUEUE Q-0002 done）。L2-P#2 已入 §1（ANALYST@CL 2026-10-07，QUEUE Q-0001 done）。L15-I 已入 §1。L15-A 已入 §1。L15-P 已入 §1。L14-P／L14-A／L14-I 已入 §1。逐格處理，填不出標【未生成】；格狀態只寫 ARCH_matrix 與 §1。
+「已生成」未測 0 格。L12-P#2 已入 §1（ANALYST@CL 2026-10-08，QUEUE Q-0008 done）。L9-I#2 已入 §1（ANALYST@CL 2026-10-08，QUEUE Q-0007 done）。L9-A#2 已入 §1（ANALYST@CL 2026-10-07，QUEUE Q-0006 done）。L8-I#2 已入 §1（ANALYST@CL 2026-10-07，QUEUE Q-0005 done）。L8-A#2 已入 §1（ANALYST@CL 2026-10-07，QUEUE Q-0004 done）。L2-I#2 已入 §1（ANALYST@CL 2026-10-07，QUEUE Q-0003 done）。L2-A#2 已入 §1（ANALYST@CL 2026-10-07，QUEUE Q-0002 done）。L2-P#2 已入 §1（ANALYST@CL 2026-10-07，QUEUE Q-0001 done）。L15-I 已入 §1。L15-A 已入 §1。L15-P 已入 §1。L14-P／L14-A／L14-I 已入 §1。逐格處理，填不出標【未生成】；格狀態只寫 ARCH_matrix 與 §1。
 
 ## 5. 未完成遷移項（C1.2；完成即刪）
 1. §4 SCOUT 固定載入上限 16 KB 與實際（CHARTER＋FUNNEL ≈ 20.6 KB）不一致；待季修裁定，暫以 30 KB 總上限（§8）為準。
