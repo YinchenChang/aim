@@ -1,6 +1,6 @@
 # RETRIG — 複查觸發器掃描表（1/2；SCOUT-WATCH 用，CHARTER §7-2）
 <!-- BY: SCOUT@CL | MODEL: Claude Opus 5.5【自報】 | CHARTER: AIM-C1.2 | CONSUMES: query/ARCH_dead.md；query/INDEX.json；AIM_FUNNEL.md | EMITS: query/RETRIG.md -->
-**日期：** 2026-10-07　**建表：** SCOUT@CL（runbooks/SCOUT.md §B-1）。本表 R-01–R-12＝`query/ARCH_dead.md` #1–#12；R-13–R-19（ARCH_dead #13–#19）見 `query/RETRIG_3.md`（2026-10-07 因 8 KB 上限拆出）；R-20–R-30 見 `query/RETRIG_2.md`、R-31 起見 `query/RETRIG_4.md`（INDEX／FUNNEL 補列，ARCH_dead 已涵蓋之碼不重列）。觸發器原文照錄，不改寫、不補定義。結果只三種：未觸發／觸發／無法判定（失敗歸因）。
+**日期：** 2026-10-07　**建表：** SCOUT@CL（runbooks/SCOUT.md §B-1）。本表 R-01–R-12＝`query/ARCH_dead.md` #1–#12；R-13–R-19（ARCH_dead #13–#19）見 `query/RETRIG_3.md`（2026-10-07 因 8 KB 上限拆出）；R-20–R-30 見 `query/RETRIG_2.md`、R-31–R-39 見 `query/RETRIG_4.md`、R-40 起見 `query/RETRIG_5.md`（INDEX／FUNNEL 補列，ARCH_dead 已涵蓋之碼不重列）。觸發器原文照錄，不改寫、不補定義。結果只三種：未觸發／觸發／無法判定（失敗歸因）。
 
 | R-## | 代碼 | 觸發器（原文照錄） | 可觀測來源（URL 或申報類別） | 最近檢查日 | 結果 |
 |---|---|---|---|---|---|
