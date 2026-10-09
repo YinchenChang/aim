@@ -16,7 +16,7 @@
 ## C. SCOUT-GEN：新生成（配額 2／日）
 1. 讀 `query/ARCH_matrix.md`。若有【未生成】或「已生成未測」格 → 先做該格。
 2. 全表已測時：取「最後測試日最舊」且非「已殺／刻意排除」之格，生成**該格第 n 份**候選（代碼 `<格>#n`，n＝該格既有生成數＋1）。必須與該格既往候選與 `ARCH_dead` 之死因**型態不同**；生成卡 §0 列出比對過之舊檔路徑。
-3. 生成卡：`work/YYYYMMDD_<格>#n_generate_CL.md`，結構沿用 `archive/drive/USED_*_generate_GK.md`：§0 範圍、落差一句、機制型態［P／A／I］、B 端可觀測載體（只指名）、否決觸發 (1)…(k)、不寫 H1。
+3. 格選定後，可以 `python tools/tokenomics_leads.py <格之關鍵詞>` 找 B 端載體線索（CLAUDE.md §11；只作線索，須回原文實讀）。生成卡：`work/YYYYMMDD_<格>#n_generate_CL.md`，結構沿用 `archive/drive/USED_*_generate_GK.md`：§0 範圍、落差一句、機制型態［P／A／I］、B 端可觀測載體（只指名）、否決觸發 (1)…(k)、不寫 H1。
 4. 終端篩選條件不得在生成階段執行（§7-3）；不得由目標反推（§1）。
 5. QUEUE 新增 `ANALYST` 列：「測一 <格>#n；依生成卡否決觸發逐條實讀」。ARCH_matrix 該格標「已生成 #n」。
 
