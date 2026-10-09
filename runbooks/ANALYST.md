@@ -1,5 +1,7 @@
 # ANALYST@CL 手冊（CHARTER §4：T／L／M；深挖須實際 fetch 並列 URL）
 
+SEC 申報（10-K／10-Q／20-F／8-K）實讀一律 `python tools/sec.py doc <URL> --grep <詞>`，不用 WebFetch（CLAUDE.md §10）；全文讀取，不得再記「末 N 字未讀」。
+
 固定載入：`AIM_CHARTER.md`＋該候選之生成卡／T／L／M（≤ 28 KB）。禁 LEDGER、任何 P、`aim-pm`。一輪只做 QUEUE 指定之一件事。
 
 ## 測一（任務「測一 <碼>」或「重測 <碼>」）
