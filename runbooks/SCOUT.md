@@ -7,7 +7,7 @@
 
 ## B. SCOUT-WATCH：複查觸發器掃描（配額 4 輪／日）
 目的：把已殺／不進 T 之候選的**複查觸發器**變成可觀測的定期檢查（CHARTER §7-2）。
-1. 若 `query/RETRIG.md` 不存在：本輪只建它。來源＝`query/ARCH_dead.md` 全列＋`query/INDEX.json` 各碼之 `retrigger`＋`AIM_FUNNEL.md` §1／§2 之複查觸發器。表頭：`| R-## | 代碼 | 觸發器（原文照錄） | 可觀測來源（URL 或申報類別） | 最近檢查日 | 結果 |`。觸發器只照錄，不改寫、不補定義。≤ 8 KB；超過則拆 `RETRIG_2.md`。
+1. 若 `query/RETRIG.md` 不存在：本輪只建它。來源＝`query/ARCH_dead.md` 全列＋`query/INDEX.json` 各碼之 `retrigger`＋`query/ARCH_live.md`（原 FUNNEL §1 全列）與 `AIM_FUNNEL.md` §2 之複查觸發器。表頭：`| R-## | 代碼 | 觸發器（原文照錄） | 可觀測來源（URL 或申報類別） | 最近檢查日 | 結果 |`。觸發器只照錄，不改寫、不補定義。≤ 8 KB；超過則拆 `RETRIG_2.md`。
 2. 否則：取 `最近檢查日` 最舊之 **3 列**，逐列實際 fetch（WebSearch／WebFetch；SEC 一律 `python tools/sec.py`（`filings`／`facts`／`doc --grep`；見 CLAUDE.md §10），EDGAR full-text 不可用），列 URL 與日期。
 3. 每列結果只三種：`未觸發`／`觸發`／`無法判定（失敗歸因）`。檢索失敗不是存在性主張（§7-2）。
 4. 有 `觸發` → 寫 `work/YYYYMMDD_<代碼>_watch_CL.md`（觸發器原文、證據 URL、為何算觸發），並於 QUEUE 新增 `ANALYST` 列：「重測 <代碼>：以 watch 檔之新證據重跑測一；不改他碼」。

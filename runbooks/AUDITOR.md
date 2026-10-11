@@ -9,4 +9,4 @@
    - 任務：「對 L 之 `H1`／`H5` 與 M 之每一日期 `[V]` **獨立重算**；須實際 fetch 並列 URL；只准輸出『維持』或『否決』＋逐項理由；不得修改 L／M、不得提出替代數值作為新 L。結果寫入 `work/YYYYMMDD_<碼>_audit_CL.md`，標頭 `BY: AUDITOR@CL | MODEL: <你自報>`。」
    - 不得把本 session 之對話、撰寫者之推理、或 ANALYST 之 work 筆記貼給子代理。
 4. 子代理回來後，主 session 只核對：audit 檔存在、標頭 MODEL 族 ≠ 撰寫者、終態 ∈ {維持, 否決}。不符 → HEALTH。
-5. 維持 → `git mv` L、M 至 `cards/`；FUNNEL §1 該碼「L／M 凍結｜稽核維持」；QUEUE 不新增（P 屬 PM，非排程）。否決 → FUNNEL 標「稽核否決」、L／M 移 `archive/work/`；QUEUE 不新增。
+5. 維持 → `git mv` L、M 至 `cards/`；FUNNEL §1 該碼狀態欄與 `query/ARCH_live.md` 該碼列「L／M 凍結｜稽核維持」；QUEUE 不新增（P 屬 PM，非排程）。否決 → FUNNEL 標「稽核否決」、L／M 移 `archive/work/`；QUEUE 不新增。
