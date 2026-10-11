@@ -36,6 +36,7 @@
 | L6-P | 雲端：守恆 | 作業 MTTF∝1/N，ETTR 隨 N 降 | **T 已寫｜不進 L**（T `1jqXZVzNmCNPF8V0y9pqsTGiq8Fkk51VW`） | 複查沿 T；測一 `1n2WEG0EcPatT2OHbcyx2KFIhBNgFJ9-x` | ANALYST@GK |
 | L6-P#2 | 雲端：守恆 | RPO 交付之電力-時間預算 Rev ≤ ρ×∫MW_on dt；ρ（每 MW 營收）僅媒體合約值且期限未揭、年化跨度約 3 倍；Oracle 申報層 MW 0 筆，管理層法說已以 MW 報交付；IREN／Nebius 申報同檔並列 RPO 與 MW | **測一不通過｜不進 T**（測一 `work/20261011_L6-P#2_test1_CL.md`；生成 `archive/work/20261011_L6-P#2_generate_CL.md`；(1) 觸發；(2) 部分觸發；(3) 無法判定；(4)(5) 未觸發） |
 | L6-I | 雲端：誘因 | backlog 變厚≠對手方變好 | **T 已寫｜不進 L**（T `18Lq7CSVcs7Wgjr7zlGG4QvHwrdIu9-gz`） | 複查沿 T；測一 `1fNjiUcUe9YH12iXl1bWbffhbmEmp3iIr` | ANALYST@GK |
+| L6-I#2 | 雲端：誘因 | 賣方代理人計酬：Oracle DEF 14A bookings 指標（Non-GPU 30%／GPU 10%／SaaS 10%，達成 150%）只及單一 NEO（「Metric applicable to Mr. Hura only」），其餘 NEO 綁營業利益、PSO 綁 FY28 營收；bookings 定義申報層 0 筆；RPO 遠端占比 26→65% 集中於單一季（OpenAI）後連降四季至 50%；毛利指引已公開歸因 ramp／mix；Microsoft 以雲營收計酬 | **測一不通過｜不進 T**（測一 `work/20261011_L6-I#2_test1_CL.md`；生成 `archive/work/20261011_L6-I#2_generate_CL.md`；(2) 實質觸發；(3)(5) 部分觸發；(1) 未觸發不可證；(4) 未觸發） | 不進 T；不改 L6-I#1／L6-P#2／L6-A#2／L4-I#2／L13-A／L13-I；不寫 T-15；複查觸發器見測一 C | ANALYST@CL |
 | L7-P | 模型層：守恆 | FLOP/token × J/FLOP＝推論能量下界 | **測一通過｜不進 T**（測一 `1noWXoe84aRjZS8Jsc05FIm6WMvmDqgwt`；生成 `12qrTTewQkW8G9XmUgCoVL2lEExzWlPWQ`） | 不進 T；不改 L7-A／L7-I | ANALYST@GK |
 | L7-A | 模型層：會計恆等 | 列表價可觀測；FLOP／成本不可並列 | **測一不通過｜不進 T**（`1L2UUzQh8S58uJQteeEp4rt6i_3xgPcNG`） | 不進 T | ANALYST@GK |
 | L7-I | 模型層：誘因 | 持有／排除可觀測；分數時序不可並列 | **測一不通過｜不進 T**（`1UyNeDN4vt7hLZaqya8byNMkA7wZQnYFk`） | 不進 T | ANALYST@GK |
