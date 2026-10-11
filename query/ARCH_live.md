@@ -34,6 +34,7 @@
 | L6-A#2 | 雲端：會計恆等 | 電力轉嫁份額 θ（營收 ≡ 租金＋θ·電費，總額法）；DLR 補充包逐季分列 Tenant reimbursements - Utilities（θ ≈ 0.87–0.90，約營收 18%）並以 NOI 扣 utilities；EQIX 新聞稿成長率明文剔除 net power pass-through → θ 已由業者分開報告；剩餘 (1−θ)·ΔC 屬電價方向（L1） | **測一不通過｜不進 T**（測一 `work/20261011_L6-A#2_test1_CL.md`；生成 `archive/work/20261011_L6-A#2_generate_CL.md`；(2) 觸發；(3)(4)(5) 部分觸發；(1) 未觸發／EQIX 部分） |
 | L5-P | 儲存與 IO：守恆 | decode 吞吐上界＝BW／V_byte | **T 已寫｜不進 L**（T `1UmDKbRjqelgHJT-OhEZbbMwh901a6HjF`；L `1LzNAqiarKn8ifd2XdKVBSduEzBwMaujv`；不凍結、不進 M、不改判） | 不進 M；複查沿 T；測一 `1hlVhP20CVVYzTcEju13raU1ITCzGoFbd` | ANALYST@GK |
 | L6-P | 雲端：守恆 | 作業 MTTF∝1/N，ETTR 隨 N 降 | **T 已寫｜不進 L**（T `1jqXZVzNmCNPF8V0y9pqsTGiq8Fkk51VW`） | 複查沿 T；測一 `1n2WEG0EcPatT2OHbcyx2KFIhBNgFJ9-x` | ANALYST@GK |
+| L6-P#2 | 雲端：守恆 | RPO 交付之電力-時間預算 Rev ≤ ρ×∫MW_on dt；ρ（每 MW 營收）僅媒體合約值且期限未揭、年化跨度約 3 倍；Oracle 申報層 MW 0 筆，管理層法說已以 MW 報交付；IREN／Nebius 申報同檔並列 RPO 與 MW | **測一不通過｜不進 T**（測一 `work/20261011_L6-P#2_test1_CL.md`；生成 `archive/work/20261011_L6-P#2_generate_CL.md`；(1) 觸發；(2) 部分觸發；(3) 無法判定；(4)(5) 未觸發） |
 | L6-I | 雲端：誘因 | backlog 變厚≠對手方變好 | **T 已寫｜不進 L**（T `18Lq7CSVcs7Wgjr7zlGG4QvHwrdIu9-gz`） | 複查沿 T；測一 `1fNjiUcUe9YH12iXl1bWbffhbmEmp3iIr` | ANALYST@GK |
 | L7-P | 模型層：守恆 | FLOP/token × J/FLOP＝推論能量下界 | **測一通過｜不進 T**（測一 `1noWXoe84aRjZS8Jsc05FIm6WMvmDqgwt`；生成 `12qrTTewQkW8G9XmUgCoVL2lEExzWlPWQ`） | 不進 T；不改 L7-A／L7-I | ANALYST@GK |
 | L7-A | 模型層：會計恆等 | 列表價可觀測；FLOP／成本不可並列 | **測一不通過｜不進 T**（`1L2UUzQh8S58uJQteeEp4rt6i_3xgPcNG`） | 不進 T | ANALYST@GK |
