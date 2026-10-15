@@ -4,7 +4,7 @@
 
 | R-## | 代碼 | 觸發器（原文照錄） | 可觀測來源（URL 或申報類別） | 最近檢查日 | 結果 |
 |---|---|---|---|---|---|
-| R-20 | L2-A | 新生成物 | 內部（ARCH_matrix 新生成） | 2026-10-13 | 未觸發（內部）。ARCH_matrix L2 A 格自 10-11 無新生成（仍 #2 測一通過｜不進 T，`work/20261007_L2-A#2_test1_CL.md`）；前次觸發已由 Q-0002 消化，見 `work/20261011_L2-A_watch_CL.md` |
+| R-20 | L2-A | 新生成物 | 內部（ARCH_matrix 新生成） | 2026-10-15 | 觸發（內部，已消化；見 work/20261015_L2-A_watch_CL.md）。L2-A#3 生成（2026-10-14）並經 Q-0045 測一不通過｜不進 T（work/20261014_L2-A#3_test1_CL.md）；不新增 ANALYST 列（重複產出） |
 | R-21 | L2-I | 任一美股上市開發商或資料中心 REIT 於 10-K／10-Q 分列許可／併網撤回或附條件之已發生損失或有負債，且與租戶信用損失分列（FUNNEL §1；INDEX：見 FUNNEL §1） | EDGAR 10-K／10-Q | 2026-10-13 | 未觸發（sec.py）。EQIX／DLR 自 10-11 無新 10-Q（EQIX 僅 Form 4／144；DLR 10-06 三份 8-K 皆票據發行，permit＝0，例 https://www.sec.gov/Archives/edgar/data/1297996/000119312526414921/d178810d8k.htm）。前輪 10-Q 2026-06-30 全文結論不變（permit 僅風險句、loss contingenc＝0）。Q3 10-Q 約 10 月底後查；德州 TCEQ 暫停仍待 Q3 申報 |
 | R-22 | L1-A | 10-K分列已鎖定PPA單價與殘差現貨／關稅且可畫兩期 | EDGAR 10-K／10-Q | 2026-10-13 | 未觸發（sec.py）。VST 自 10-11 僅 8-K 2026-10-05（信用協議修訂，MWh／power purchase＝0，https://www.sec.gov/Archives/edgar/data/1692819/000114036126038468/ef20083016_8k.htm）與 Form 4／144。TLN 10-Q 2026-06-30（https://www.sec.gov/Archives/edgar/data/1622536/000162253626000066/tln-20260630.htm）/MWh 9 筆僅 PJM 樞紐結算與遠期價、AWS PPA 僅 1,920 MW 量與期限至 2042、無單價；per MWh＝0。兩期不可畫 |
 | R-23 | L1-I | ISO／RTO佇列或LBNL年報分列已繳保證金／場址控制／財務承諾MW vs 裸申請且可畫兩期 | ISO／RTO 佇列；LBNL Queued Up 年報 | 2026-10-13 | 未觸發。LBNL Queued Up 2026 Edition（05/2026，截至 2025 年底）摘要只分列 IA 狀態一維（549 GW 具 draft／executed IA，按技術拆），未見保證金／場址控制 MW 分列；Excel 36 分頁未逐頁讀（https://emp.lbl.gov/publications/queued-2026-edition-characteristics）；IA 是否屬「財務承諾」不補定義，維持前輪判讀。PJM Cycle 1 Phase I 決策點（2026-11 底）未到，未見新分列公告（WebSearch 2026-10-13 無新件）；ERCOT 沿前輪 |
