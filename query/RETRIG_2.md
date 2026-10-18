@@ -4,7 +4,7 @@
 
 | R-## | 代碼 | 觸發器（原文照錄） | 可觀測來源（URL 或申報類別） | 最近檢查日 | 結果 |
 |---|---|---|---|---|---|
-| R-20 | L2-A | 新生成物 | 內部（ARCH_matrix 新生成） | 2026-10-15 | 觸發（內部，已消化；見 work/20261015_L2-A_watch_CL.md）。L2-A#3 生成（2026-10-14）並經 Q-0045 測一不通過｜不進 T（work/20261014_L2-A#3_test1_CL.md）；不新增 ANALYST 列（重複產出） |
+| R-20 | L2-A | 新生成物 | 內部（ARCH_matrix 新生成） | 2026-10-18 | 未觸發。2026-10-18 檢 `query/ARCH_matrix.md` L2 列與 `git log --since=2026-10-15`：L2-A 自 #3（2026-10-14 生成、Q-0045 測一不通過）後無新生成物；前次觸發（work/20261015_L2-A_watch_CL.md）已消化 |
 | R-21 | L2-I | 任一美股上市開發商或資料中心 REIT 於 10-K／10-Q 分列許可／併網撤回或附條件之已發生損失或有負債，且與租戶信用損失分列（FUNNEL §1；INDEX：見 FUNNEL §1） | EDGAR 10-K／10-Q | 2026-10-16 | 未觸發（sec.py）。EQIX 最新仍 Form 4 2026-09-08，無新 10-Q。DLR 新件僅 8-K 2026-10-09（Item 1.01 歐元票據 €1B 5.125% 2036，permit／contingen＝0，https://www.sec.gov/Archives/edgar/data/1297996/000119312526419168/d368817d8k.htm）。Q3 10-Q 約 10 月底後查；德州 TCEQ 暫停仍待 Q3 申報 |
 | R-22 | L1-A | 10-K分列已鎖定PPA單價與殘差現貨／關稅且可畫兩期 | EDGAR 10-K／10-Q | 2026-10-16 | 未觸發（sec.py）。VST 自 10-05 8-K 後僅 Form 4／144（10-06～10-08）；TLN 最新仍 8-K 2026-09-29、10-Q 2026-06-30（前輪讀畢：per MWh＝0、AWS PPA 無單價）。Q3 10-Q 未申報，兩期不可畫 |
 | R-23 | L1-I | ISO／RTO佇列或LBNL年報分列已繳保證金／場址控制／財務承諾MW vs 裸申請且可畫兩期 | ISO／RTO 佇列；LBNL Queued Up 年報 | 2026-10-16 | 未觸發。WebSearch 2026-10-16 無 PJM／ERCOT 新分列公告：PJM Cycle 1 材料仍為 2026-01／02 申請要件（https://www.pjm.com/-/media/DotCom/committees-groups/subcommittees/ips/2026/20260126/20260126-item-05---cycle-1-application-requirements-and-nextgen-process.pdf），Phase I 決策點（2026-11 底）未到；ERCOT 最新大負載更新仍 2026-04（https://www.ercot.com/files/docs/2026/04/01/ERCOT_LargeLoad_Update_April2026_B-C_-Hearing.pdf）。LBNL Queued Up 2026 判讀沿前輪（只分 IA 狀態一維） |
