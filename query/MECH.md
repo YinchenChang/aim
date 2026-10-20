@@ -1,7 +1,7 @@
 # MECH — 機械層心跳（aimctl beat 自動生成；手寫無效）
 version: AIM-C1.2@CL
-role: SCOUT-GEN
-task: L10-A#3/Q-0074
+role: CHAIN
+task: Q-0074
 result: ok
-last_run_utc: 2026-10-20T06:24:45Z
-prev_commit: 0ce1a33
+last_run_utc: 2026-10-20T06:25:01Z
+prev_commit: dabaff0
