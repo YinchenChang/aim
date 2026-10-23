@@ -11,3 +11,4 @@
 
 | 登錄日 | 出處日期 | 主張 | 數值 | 單位 | 出處網址 | 來源等級 | 登錄者 |
 |---|---|---|---|---|---|---|---|
+| 2026-10-23 | 2026-07-01 | UnitedHealth Group 計劃於今明兩年合計投入 AI 支出（Becker's 轉述 UHG） | 3 | 十億美元（2026–2027 合計） | https://www.beckerspayer.com/payer/unitedhealthcare-ceo-ai-driven-cost-inflation-not-going-to-be-persistent/ | [I-利害方] 二手 | SCOUT@CL SCOUT-GEN |
