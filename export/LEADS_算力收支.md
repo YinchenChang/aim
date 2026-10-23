@@ -12,3 +12,6 @@
 | 登錄日 | 出處日期 | 主張 | 數值 | 單位 | 出處網址 | 來源等級 | 登錄者 |
 |---|---|---|---|---|---|---|---|
 | 2026-10-23 | 2026-07-01 | UnitedHealth Group 計劃於今明兩年合計投入 AI 支出（Becker's 轉述 UHG） | 3 | 十億美元（2026–2027 合計） | https://www.beckerspayer.com/payer/unitedhealthcare-ceo-ai-driven-cost-inflation-not-going-to-be-persistent/ | [I-利害方] 二手 | SCOUT@CL SCOUT-GEN |
+| 2026-10-23 | 2026-10-22 | Meta 2026Q3 資本支出（含融資租賃本金償付） | 34.91 | 十億美元／季 | https://www.sec.gov/Archives/edgar/data/1326801/000162828026066773/meta-20260930.htm | [V] 一手 | SCOUT@CL SCOUT-WATCH |
+| 2026-10-23 | 2026-10-22 | Meta 2026-09-30 Servers and network assets 帳面原值（2025-12-31 為 98,040） | 133626 | 百萬美元 | https://www.sec.gov/Archives/edgar/data/1326801/000162828026066773/meta-20260930.htm | [V] 一手 | SCOUT@CL SCOUT-WATCH |
+| 2026-10-23 | 2026-10-22 | Meta 2026Q3 物業與設備折舊費用（2025Q3 為 4.76） | 6.81 | 十億美元／季 | https://www.sec.gov/Archives/edgar/data/1326801/000162828026066773/meta-20260930.htm | [V] 一手 | SCOUT@CL SCOUT-WATCH |
