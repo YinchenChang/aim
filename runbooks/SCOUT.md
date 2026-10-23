@@ -20,5 +20,8 @@
 4. 終端篩選條件不得在生成階段執行（§7-3）；不得由目標反推（§1）。
 5. QUEUE 新增 `ANALYST` 列：「測一 <格>#n；依生成卡否決觸發逐條實讀」。ARCH_matrix 該格標「已生成 #n」。
 
+## D. 線索輸出（任一 SCOUT 輪之副產品；不計配額；CLAUDE.md §12）
+本輪實讀到之新事實若屬 AI 算力投入、AI 收入、硬體、雲端／算力合約、資料中心，逐筆 `python tools/leads.py add --date <出處日期> --claim "<一句，照出處口徑>" --value <數> --unit <單位> --url <原始出處> --grade "<[V]／[I-利害方]／[D]> <一手／二手>" --by "SCOUT@CL <Q-id 或 kind>"`。不寫部位、尺碼、金額配置、候選判斷、候選代碼；出處為 Tokenomics／company-models 者不寫；經 `tokenomics_leads.py` 找到之同一 SRC 出處不重複寫。commit 前 `python tools/leads.py check` 須 OK，否則刪該列再 commit。內部數字（`tools/internal_numbers.py`）可取用，標 `[I-內部研究（算力收支）]`，地位依 CLAUDE.md §12。
+
 ## 收尾
 FUNNEL §3 與 ARCH_matrix 只改本輪觸及之格。依 DISPATCH §5 commit。

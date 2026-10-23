@@ -64,3 +64,4 @@
 
 ## 7. 使用者裁定留痕（非修訂）
 - 2026-10-15（使用者，PM@CL session）：§2-3 准入門檻 K＝5x **維持不改**；「少出是此投資模式的 feature，持續觀察」。起算時漏斗 65 候選、0 件達 L 凍結。供 2027-01-15 季修 SCORECARD D／E 參照；本條不構成季內修訂。
+- 2026-10-23（使用者，PM@CL session）：新增外部資料來源「內部研究（算力收支），非獨立來源」（`YinchenChang/Tokenomics` Interface `IF_`／`L1_`，版本依 `model/CURRENT`；`YinchenChang/company-models` 各公司 `dist/`），只取數字、排除估值類（使用者同日選定）；新增線索輸出檔 `export/LEADS_算力收支.md`（SCOUT 追加）。**落點＝執行層，非章程修訂**：CLAUDE.md §11 修、§12 新增；`runbooks/SCOUT.md` §D、`ANALYST.md`、`AUDITOR.md`；`tools/internal_numbers.py`、`tools/leads.py`。理由：§8「章程修訂每季一次，季內不改」；本變更不改 §1–§9 任何條文——內部數字依既有標記制度標 `[I]`、衝突依 §7-1／§7-2／§7-10，不得作 §3 T 先驗之「外部」參照物，AUDITOR 不用（§4），線索檔非 §8 訊息且禁候選／部位內容；前例＝2026-10-10 CLAUDE.md §11（`04f7f9c`）。若 2027-01-15 季修判定此屬章程事項，再以修訂入現行卡。

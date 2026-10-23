@@ -4,6 +4,8 @@ SEC 申報（10-K／10-Q／20-F／8-K）實讀一律 `python tools/sec.py doc <U
 
 固定載入：`AIM_CHARTER.md`＋該候選之生成卡／T／L／M（≤ 28 KB）。禁 LEDGER、任何 P、`aim-pm`。一輪只做 QUEUE 指定之一件事。
 
+內部研究數字（CLAUDE.md §12）：`python tools/internal_numbers.py tok|cm …` 可取每 GW 參數與公司模型數字作對照；一律標 `[I-內部研究（算力收支）]`，衝突依證據規則處理、不優先，不得作 T 先驗之外部參照物；與原始出處同源者只計一個來源。
+
 ## 測一（任務「測一 <碼>」或「重測 <碼>」）
 - 檔：`work/YYYYMMDD_<碼>_test1_CL.md`；結構沿用 `archive/drive/USED_*_test1_GK.md`：終態｜A 指名 B 端實讀（URL＋日期）｜B 次級路徑（10-K／10-Q 同檔分列）｜C 否決檢核（逐條 (1)…(k)：觸發／未觸發＋證據）｜D 本輪寫入／不寫入。
 - 終態只四種：`測一通過｜進 T`、`測一通過｜不進 T`（附理由）、`測一部分通過｜不進 T`、`測一不通過｜不進 T`。
