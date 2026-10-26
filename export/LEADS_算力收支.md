@@ -60,3 +60,5 @@
 | 2026-10-25 | 2026-10-22 | SpaceX 3Q26 10-Q：SI 部門營收增加含 Cursor 併購（2026-08 中）後之 Cursor 營收 | 608 | US$ million | https://www.sec.gov/Archives/edgar/data/1181412/000162828026066880/spcx-20260930.htm | [V] 一手 | SCOUT@CL SCOUT-WATCH R-16 |
 | 2026-10-25 | 2026-08-17 | Sandisk FY2026（截至 2026-07-03）Datacenter 終端市場營收 | 5153 | 百萬美元 | https://www.sec.gov/Archives/edgar/data/2023554/000162828026057406/sndk-20260703.htm | [V] 一手 | SCOUT@CL SCOUT-GEN |
 | 2026-10-25 | 2026-08-28 | Kioxia 與 Sandisk 擬至 2032 年於日本投資逾 5 兆日圓增加 NAND 產出（以日本政府持續支持為條件） | 5 | 兆日圓 | https://www.blocksandfiles.com/flash/2026/08/28/sandisk-and-kioxia-have-yen-for-new-nand-fabs/5293245 | [I-利害方] 二手 | SCOUT@CL SCOUT-GEN |
+| 2026-10-26 | 2026-06-30 | Meta 自研 CXL 2.0 記憶體擴充 ASIC（Vistara）再用退役伺服器 DDR4，每 MemServer 附 CXL DDR4 容量 | 256 | GB | https://hwbusters.com/news/meta-reuses-old-ddr4-memory-in-new-servers-to-cut-costs/ | [I-利害方] 二手 | SCOUT@CL SCOUT-GEN |
+| 2026-10-26 | 2026-08-04 | Astera Labs 2Q26 營收；預期 2027 向兩家美系超大規模業者量產出貨 Leo CXL 記憶體控制器 | 392.4 | US$ million | https://www.marketbeat.com/instant-alerts/astera-labs-q2-earnings-call-highlights-2026-08-04/ | [I-利害方] 二手 | SCOUT@CL SCOUT-GEN |
