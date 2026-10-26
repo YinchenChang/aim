@@ -69,3 +69,7 @@
 | 2026-10-26 | 2026-08-12 | CoreWeave 1H26 購置不動產及設備現金支出 | 14.117 | 十億美元 | https://www.sec.gov/Archives/edgar/data/1769628/000176962826000366/crwv-20260630.htm | [V] 一手 | SCOUT@CL SCOUT-GEN |
 | 2026-10-26 | 2026-07-23 | Alphabet 計入應計負債及應付帳款之不動產及設備（2026-06-30 餘額；2025-12-31 為 15.09） | 29.113 | 十億美元 | https://www.sec.gov/Archives/edgar/data/1652044/000165204426000071/goog-20260630.htm | [V] 一手 | SCOUT@CL SCOUT-GEN |
 | 2026-10-26 | 2026-09-11 | Oracle 未付資本支出（2026-08-31 非現金投資揭露） | 6.247 | 十億美元 | https://www.sec.gov/Archives/edgar/data/1341439/000119312526389274/orcl-20260831.htm | [V] 一手 | SCOUT@CL SCOUT-GEN |
+| 2026-10-26 | 2025-09-08 | Nebius 與 Microsoft 五年 GPU 容量合約總值（分批交付；逾寬限期未交付且無替代容量，Microsoft 得終止該批） | 17.4 | 十億美元 | https://www.sec.gov/Archives/edgar/data/1513845/000110465925088312/tm2525580d1_6k.htm | [V] 一手 | SCOUT@CL SCOUT-GEN |
+| 2026-10-26 | 2026-08-27 | IREN 與 Microsoft GPU 服務合約總值（至 2031；各批合約值 20% 於交付前預付；Horizon 2–4 寬限期至 2027 年第二季初） | 9.7 | 十億美元 | https://www.sec.gov/Archives/edgar/data/1878848/000187884826000052/iren-20260630.htm | [V] 一手 | SCOUT@CL SCOUT-GEN |
+| 2026-10-26 | 2026-10-19 | Microsoft 終止 Nscale Loughton（英國）AI 資料中心合約，該址原計畫為 Azure 部署之 GB300 GPU 數（原因：電網接入延至 2030 年代） | 23040 | GPU | https://datacenterknowledge.com/build-design/microsoft-exits-nscale-data-center-deal-over-uk-power-delays | [V] 二手 | SCOUT@CL SCOUT-GEN |
+| 2026-10-26 | 2026-04-27 | Ornn Compute Price Index：B200 每 GPU 小時租價（2026-03 初為 2.31） | 4.95 | 美元／GPU·小時 | https://tomtunguz.com/b200-gpu-pricing-spot-market-model-releases/ | [D] 二手 | SCOUT@CL SCOUT-GEN |
