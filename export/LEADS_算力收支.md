@@ -83,3 +83,5 @@
 | 2026-10-26 | 2026-08-31 | Z.AI（智譜，HKEX 2513）2026 上半年開放平台及 API 收入人民幣 8.252 億元，占總收入 86.5%（中期業績公告，未經審核） | 825.2 | 百萬人民幣 | https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0831/2026083101539.pdf | [I-利害方] 一手 | SCOUT@CL SCOUT-WATCH |
 | 2026-10-26 | 2026-08-31 | Z.AI（智譜，HKEX 2513）2026 上半年開放平台及 API 業務毛利率升至 24.6%（中期業績公告，未經審核） | 24.6 | % | https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0831/2026083101539.pdf | [I-利害方] 一手 | SCOUT@CL SCOUT-WATCH |
 | 2026-10-26 | 2026-08-31 | Z.AI（智譜，HKEX 2513）稱 2026 上半年平均 API 售價約上升 101%（相對值，未揭露絕對單價） | 101 | % | https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0831/2026083101539.pdf | [I-利害方] 一手 | SCOUT@CL SCOUT-WATCH |
+| 2026-10-26 | 2026-10-26 | Google Gemini 3.1 Pro Preview API 價目：輸入每百萬 token 2.00 美元（提示 ≤200k）、4.00 美元（>200k）；快取儲存每百萬 token 每小時 4.50 美元 | 4.00 | USD/百萬輸入token(>200k) | https://ai.google.dev/pricing | [I-利害方] 一手 | SCOUT@CL SCOUT-GEN |
+| 2026-10-26 | 2026-10-26 | Google Gemini 3.8 Flash API 價目：輸入／輸出每百萬 token 0.75／3.75 美元至 2026-12-31，2027-01-01 起 1.50／7.50 美元 | 1.50 | USD/百萬輸入token(2027起) | https://ai.google.dev/pricing | [I-利害方] 一手 | SCOUT@CL SCOUT-GEN |
