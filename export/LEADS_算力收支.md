@@ -73,3 +73,4 @@
 | 2026-10-26 | 2026-08-27 | IREN 與 Microsoft GPU 服務合約總值（至 2031；各批合約值 20% 於交付前預付；Horizon 2–4 寬限期至 2027 年第二季初） | 9.7 | 十億美元 | https://www.sec.gov/Archives/edgar/data/1878848/000187884826000052/iren-20260630.htm | [V] 一手 | SCOUT@CL SCOUT-GEN |
 | 2026-10-26 | 2026-10-19 | Microsoft 終止 Nscale Loughton（英國）AI 資料中心合約，該址原計畫為 Azure 部署之 GB300 GPU 數（原因：電網接入延至 2030 年代） | 23040 | GPU | https://datacenterknowledge.com/build-design/microsoft-exits-nscale-data-center-deal-over-uk-power-delays | [V] 二手 | SCOUT@CL SCOUT-GEN |
 | 2026-10-26 | 2026-04-27 | Ornn Compute Price Index：B200 每 GPU 小時租價（2026-03 初為 2.31） | 4.95 | 美元／GPU·小時 | https://tomtunguz.com/b200-gpu-pricing-spot-market-model-releases/ | [D] 二手 | SCOUT@CL SCOUT-GEN |
+| 2026-10-26 | 2026-08-27 | IREN 10-K（FY2026）：2026-05 經間接全資子公司 IE US Hardware 3, LLC 訂立約 3.6B 美元有擔保 GPU 融資計畫 | 3.6 | B USD | https://www.sec.gov/Archives/edgar/data/1878848/000187884826000052/iren-20260630.htm | [V] 一手 | SCOUT@CL SCOUT-GEN |
