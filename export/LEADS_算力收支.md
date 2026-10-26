@@ -77,3 +77,6 @@
 | 2026-10-26 | 2026-07-29 | Microsoft FY2026 認列來自 OpenAI 之商業安排營收（含分潤），MSFT 10-K FY2026 關係人揭露 | 24.1 | 十億美元 | https://www.sec.gov/Archives/edgar/data/789019/000119312526323660/msft-20260630.htm | [I-利害方] 一手 | SCOUT@CL SCOUT-WATCH |
 | 2026-10-26 | 2026-07-29 | Microsoft 對 OpenAI 應收帳款於 2026-06-30（總額，未分帳齡） | 6.0 | 十億美元 | https://www.sec.gov/Archives/edgar/data/789019/000119312526323660/msft-20260630.htm | [I-利害方] 一手 | SCOUT@CL SCOUT-WATCH |
 | 2026-10-26 | 2026-07-29 | Microsoft 對 OpenAI 投資之總出資承諾 13.0 十億美元，至 2026-06-30 已出資 | 11.9 | 十億美元 | https://www.sec.gov/Archives/edgar/data/789019/000119312526323660/msft-20260630.htm | [I-利害方] 一手 | SCOUT@CL SCOUT-WATCH |
+| 2026-10-26 | 2026-10-26 | Anthropic 2026 上半年用量計費（consumption-based）營收 131 億美元，占總營收 80%（公開 S-1） | 13.1 | 十億美元 | https://www.sec.gov/Archives/edgar/data/2130357/000162828026067168/anthropicpbc-sx1.htm | [I-利害方] 一手 | SCOUT@CL SCOUT-WATCH |
+| 2026-10-26 | 2026-10-26 | Anthropic 2026 上半年訂閱制營收 32 億美元，占總營收 20%（公開 S-1） | 3.2 | 十億美元 | https://www.sec.gov/Archives/edgar/data/2130357/000162828026067168/anthropicpbc-sx1.htm | [I-利害方] 一手 | SCOUT@CL SCOUT-WATCH |
+| 2026-10-26 | 2026-10-26 | Anthropic 2026 上半年經雲端供應商（CSP）市集銷售之營收占總營收約 48%（2025 全年 47%）（公開 S-1） | 48 | % | https://www.sec.gov/Archives/edgar/data/2130357/000162828026067168/anthropicpbc-sx1.htm | [I-利害方] 一手 | SCOUT@CL SCOUT-WATCH |
