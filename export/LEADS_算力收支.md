@@ -80,3 +80,6 @@
 | 2026-10-26 | 2026-10-26 | Anthropic 2026 上半年用量計費（consumption-based）營收 131 億美元，占總營收 80%（公開 S-1） | 13.1 | 十億美元 | https://www.sec.gov/Archives/edgar/data/2130357/000162828026067168/anthropicpbc-sx1.htm | [I-利害方] 一手 | SCOUT@CL SCOUT-WATCH |
 | 2026-10-26 | 2026-10-26 | Anthropic 2026 上半年訂閱制營收 32 億美元，占總營收 20%（公開 S-1） | 3.2 | 十億美元 | https://www.sec.gov/Archives/edgar/data/2130357/000162828026067168/anthropicpbc-sx1.htm | [I-利害方] 一手 | SCOUT@CL SCOUT-WATCH |
 | 2026-10-26 | 2026-10-26 | Anthropic 2026 上半年經雲端供應商（CSP）市集銷售之營收占總營收約 48%（2025 全年 47%）（公開 S-1） | 48 | % | https://www.sec.gov/Archives/edgar/data/2130357/000162828026067168/anthropicpbc-sx1.htm | [I-利害方] 一手 | SCOUT@CL SCOUT-WATCH |
+| 2026-10-26 | 2026-08-31 | Z.AI（智譜，HKEX 2513）2026 上半年開放平台及 API 收入人民幣 8.252 億元，占總收入 86.5%（中期業績公告，未經審核） | 825.2 | 百萬人民幣 | https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0831/2026083101539.pdf | [I-利害方] 一手 | SCOUT@CL SCOUT-WATCH |
+| 2026-10-26 | 2026-08-31 | Z.AI（智譜，HKEX 2513）2026 上半年開放平台及 API 業務毛利率升至 24.6%（中期業績公告，未經審核） | 24.6 | % | https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0831/2026083101539.pdf | [I-利害方] 一手 | SCOUT@CL SCOUT-WATCH |
+| 2026-10-26 | 2026-08-31 | Z.AI（智譜，HKEX 2513）稱 2026 上半年平均 API 售價約上升 101%（相對值，未揭露絕對單價） | 101 | % | https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0831/2026083101539.pdf | [I-利害方] 一手 | SCOUT@CL SCOUT-WATCH |
