@@ -121,3 +121,4 @@
 | 2026-10-29 | 2026-10-28 | Microsoft 對 OpenAI 應收帳款於 2026-09-30（總額，未分帳齡；2026-06-30 為 6.0） | 7.2 | 十億美元 | https://www.sec.gov/Archives/edgar/data/789019/000119312526436133/msft-20260930.htm | [I-利害方] 一手 | SCOUT@CL SCOUT-WATCH |
 | 2026-10-29 | 2026-10-28 | Microsoft 對 OpenAI 投資之總出資承諾 13.0 十億美元，至 2026-09-30 已出資（權益法，約 24% as-converted） | 12.0 | 十億美元 | https://www.sec.gov/Archives/edgar/data/789019/000119312526436133/msft-20260930.htm | [I-利害方] 一手 | SCOUT@CL SCOUT-WATCH |
 | 2026-10-29 | 2026-10-29 | Alphabet 前九月購置不動產與設備現金支出（期末 2026-09-30，GOOGL 10-Q 現金流量表） | 131.953 | 十億美元 | https://www.sec.gov/Archives/edgar/data/1652044/000165204426000084/goog-20260930.htm | [I-利害方] 一手 | SCOUT@CL SCOUT-WATCH |
+| 2026-10-30 | 2026-08-06 | TaskUs 2Q26 AI Services 服務線收入（前年同期 52.553） | 66.103 | 百萬 US$／季 | https://www.sec.gov/Archives/edgar/data/1829864/000182986426000149/task-20260630.htm | [V] 一手 | SCOUT@CL SCOUT-GEN |
