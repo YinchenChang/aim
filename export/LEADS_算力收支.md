@@ -123,3 +123,4 @@
 | 2026-10-29 | 2026-10-29 | Alphabet 前九月購置不動產與設備現金支出（期末 2026-09-30，GOOGL 10-Q 現金流量表） | 131.953 | 十億美元 | https://www.sec.gov/Archives/edgar/data/1652044/000165204426000084/goog-20260930.htm | [I-利害方] 一手 | SCOUT@CL SCOUT-WATCH |
 | 2026-10-30 | 2026-08-06 | TaskUs 2Q26 AI Services 服務線收入（前年同期 52.553） | 66.103 | 百萬 US$／季 | https://www.sec.gov/Archives/edgar/data/1829864/000182986426000149/task-20260630.htm | [V] 一手 | SCOUT@CL SCOUT-GEN |
 | 2026-10-30 | 2026-10-30 | Intel Foundry 3Q26 營收 6.7B 美元，其中分部間 6.3B（18A／Intel 3／4 晶圓量增、ASP 較前代高）、外部客戶 411M（主因一次性代工合約）；營業損失 1.9B（10-Q 3Q26 MD&A） | 411 | 百萬美元（季，外部客戶營收） | https://www.sec.gov/Archives/edgar/data/50863/000005086326000191/intc-20260926.htm | [V] 一手 | SCOUT@CL SCOUT-WATCH |
+| 2026-10-30 | 2026-10-30 | Amazon 長於一年之客戶合約未認列履約義務（主要為 AWS）於 2026-09-30，AMZN Q3 10-Q | 578 | USD bn | https://www.sec.gov/Archives/edgar/data/1018724/000101872426000040/amzn-20260930.htm | [V] 一手 | SCOUT@CL SCOUT-WATCH |
