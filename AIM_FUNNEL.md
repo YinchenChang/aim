@@ -1,7 +1,7 @@
 # AIM_FUNNEL — 候選漏斗（共用；repo `YinchenChang/aim` main 為唯一正本；Drive `AIM/AIM_FUNNEL.md` 為 C1.2 前唯讀史料）
 
 <!-- BY: PM@CL | MODEL: Claude Opus 5.5【自報】 | CHARTER: AIM-C1.2 | NOTE: §1 全列外移至 query/ARCH_live.md；標頭正本敘述更正；未改任何候選判斷 | CONSUMES: AIM_FUNNEL.md@e4b3409 | EMITS: AIM_FUNNEL.md；query/ARCH_live.md -->
-**日期：** 2026-10-31　**寫入者：** SCOUT@CL（L4-P#5 生成）　**上限：** 8837 B
+**日期：** 2026-10-31　**寫入者：** ANALYST@CL（L4-P#5 測一）　**上限：** 8837 B
 **⚠ 無金額、無部位、無尺碼。** 准入見 CHARTER §1。改本檔＝repo `aim` main 原地改＋commit（C1.2 起）；禁新建同名正本。新檔以 repo 路徑引用；舊 fileId 經 `tools/aimctl.py fileid` 解析。
 
 ## 1. 現役候選（全列＝`query/ARCH_live.md`）
@@ -166,6 +166,7 @@
 | L15-P#4 | 基礎設施軟體與資料：守恆 | 測一不通過｜不進 T |
 | L15-A#4 | 基礎設施軟體與資料：會計恆等 | 測一部分通過｜不進 T |
 | L15-I#4 | 基礎設施軟體與資料：誘因 | 測一部分通過｜不進 T |
+| L4-P#5 | 運算硬體系統：守恆 | 測一不通過｜不進 T |
 
 ## 2. 已殺（觸發器全文＝`query/ARCH_dead.md`）
 
@@ -180,7 +181,7 @@
 | T-15 CoreWeave 空方 | **委託資本外**（C1.0 §9-2，記於 `query/CHARTER_HIST.md`），非殺 | 不適用 |
 
 ## 3. 待測格（全表＝`query/ARCH_matrix.md`）
-已生成未測：L4-P#5（`work/20261031_L4-P#5_generate_CL.md`，Q-0140）。各格入 §1 之紀錄見 `query/QUEUE.md`（Q-0001–Q-0139 done；Q-0140 open）與 git log。逐格處理，填不出標【未生成】；格狀態只寫 ARCH_matrix 與 §1。
+已生成未測：無。各格入 §1 之紀錄見 `query/QUEUE.md`（Q-0001–Q-0140 done）與 git log。逐格處理，填不出標【未生成】；格狀態只寫 ARCH_matrix 與 §1。
 
 ## 5. 未完成遷移項（C1.2；完成即刪）
 1. §4 SCOUT 固定載入上限 16 KB 與實際（CHARTER＋FUNNEL ≈ 17.9 KB，2026-10-11 §1 外移後）不一致；待季修裁定，暫以 30 KB 總上限（§8）為準。
