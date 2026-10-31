@@ -181,7 +181,7 @@
 | T-15 CoreWeave 空方 | **委託資本外**（C1.0 §9-2，記於 `query/CHARTER_HIST.md`），非殺 | 不適用 |
 
 ## 3. 待測格（全表＝`query/ARCH_matrix.md`）
-已生成未測：無。各格入 §1 之紀錄見 `query/QUEUE.md`（Q-0001–Q-0140 done）與 git log。逐格處理，填不出標【未生成】；格狀態只寫 ARCH_matrix 與 §1。
+已生成未測：L4-A#5（`work/20261031_L4-A#5_generate_CL.md`；QUEUE Q-0141）。各格入 §1 之紀錄見 `query/QUEUE.md`（Q-0001–Q-0140 done）與 git log。逐格處理，填不出標【未生成】；格狀態只寫 ARCH_matrix 與 §1。
 
 ## 5. 未完成遷移項（C1.2；完成即刪）
 1. §4 SCOUT 固定載入上限 16 KB 與實際（CHARTER＋FUNNEL ≈ 17.9 KB，2026-10-11 §1 外移後）不一致；待季修裁定，暫以 30 KB 總上限（§8）為準。

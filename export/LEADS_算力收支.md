@@ -134,3 +134,6 @@
 | 2026-10-31 | 2026-10-29 | Alphabet Google Cloud 營收（2026Q3 三個月，10-Q 營收分類表；去年同期 15,157） | 30709 | 百萬美元 | https://www.sec.gov/Archives/edgar/data/1652044/000165204426000084/goog-20260930.htm | [V] 一手 | SCOUT@CL SCOUT-WATCH |
 | 2026-10-31 | 2026-10-29 | Alphabet 剩餘履約義務（revenue backlog）中屬 Google Cloud 部分（2026-09-30；總額 567.7） | 560.8 | 十億美元 | https://www.sec.gov/Archives/edgar/data/1652044/000165204426000084/goog-20260930.htm | [V] 一手 | SCOUT@CL SCOUT-WATCH |
 | 2026-10-31 | 2026-10-29 | Alphabet 依合約須於特定條件下回購已售 TPU 硬體及嵌入軟體之最大潛在未來支付（2026-09-30） | 6.6 | 十億美元 | https://www.sec.gov/Archives/edgar/data/1652044/000165204426000084/goog-20260930.htm | [V] 一手 | SCOUT@CL SCOUT-WATCH |
+| 2026-10-31 | 2026-08-26 | NVIDIA FY27 第二季存貨與超額存貨採購義務提列（含於營業成本），同季提列回轉 US$177M、對毛利淨影響 −0.8pp | 985 | 百萬美元（單季提列） | https://www.sec.gov/Archives/edgar/data/1045810/000104581026000075/nvda-20260726.htm | [V] 一手 | SCOUT@CL SCOUT-GEN |
+| 2026-10-31 | 2026-08-26 | NVIDIA 供應與產能承諾按會計年度：FY27 餘 92、FY28 87、FY29 88、FY30 6（Note 10，2026-07-26）；FY28＋FY29 合計 | 175 | 十億美元 | https://www.sec.gov/Archives/edgar/data/1045810/000104581026000075/nvda-20260726.htm | [V] 一手 | SCOUT@CL SCOUT-GEN |
+| 2026-10-31 | 2026-08-05 | AMD 無條件承諾（晶圓、基板、元件與多年期雲端服務等），其中 2026 年剩餘 17.4（2026-06-27） | 30.3 | 十億美元 | https://www.sec.gov/Archives/edgar/data/2488/000000248826000123/amd-20260627.htm | [V] 一手 | SCOUT@CL SCOUT-GEN |
