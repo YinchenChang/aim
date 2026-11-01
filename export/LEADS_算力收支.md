@@ -149,3 +149,4 @@
 | 2026-11-01 | 2026-10-30 | Amazon 2026 年前九個月投資 OpenAI Series C 優先股，其中 Q3 2026 為 21.3（AMZN Q3 10-Q） | 50.0 | USD bn | https://www.sec.gov/Archives/edgar/data/1018724/000101872426000040/amzn-20260930.htm | [V] 一手 | SCOUT@CL SCOUT-WATCH |
 | 2026-11-01 | 2026-10-30 | Amazon 對 Anthropic 之可轉債融資額度上限（隨 AWS 算力交付里程碑開放；Series H 已用 5.0 後餘 15.0），AMZN Q3 10-Q | 20.0 | USD bn | https://www.sec.gov/Archives/edgar/data/1018724/000101872426000040/amzn-20260930.htm | [V] 一手 | SCOUT@CL SCOUT-WATCH |
 | 2026-11-01 | 2026-10-30 | Amazon 不動產及設備淨額於 2026-09-30（2025-12-31 為 357,025），AMZN Q3 10-Q | 508862 | USD mn | https://www.sec.gov/Archives/edgar/data/1018724/000101872426000040/amzn-20260930.htm | [V] 一手 | SCOUT@CL SCOUT-WATCH |
+| 2026-11-01 | 2026-08-02 | Everpure 2Q FY27 RPO 約 41 億美元，主要為 Evergreen//One 等 STaaS 之不可取消 TCV，年增 44% | 4.1 | 十億美元 | https://www.sec.gov/Archives/edgar/data/0001474432/000147443226000088/pstg-20260802.htm | [V] 一手 | SCOUT@CL SCOUT-GEN |
