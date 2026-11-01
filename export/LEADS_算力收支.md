@@ -143,3 +143,4 @@
 | 2026-11-01 | 2026-10-30 | Sandisk 1Q FY27（截至 2026-10-02）營收 net（管理層稱 AI 基礎設施帶動資料中心需求） | 11031 | 百萬美元 | https://www.sec.gov/Archives/edgar/data/2023554/000162828026068601/sndk-20261002.htm | [V] 一手 | SCOUT@CL SCOUT-GEN |
 | 2026-11-01 | 2026-08-14 | Fermi 10-Q 2Q26：TensorWave 租約（2026-08-09 簽、待交割）初始 15 年預計合約總收入；設施電力 222 MW，擴充選擇權至 650 MW；電力固定與變動費用列為額外租金 | 6500 | 百萬美元（15 年合計） | https://www.sec.gov/Archives/edgar/data/2071778/000207177826000051/frmi-20260630.htm | [V] 一手 | SCOUT@CL SCOUT-GEN |
 | 2026-11-01 | 2026-08-14 | Fermi 10-Q 2Q26：不動產、廠房及設備淨額（2026-06-30；2025-12-31 為 935,295 千美元） | 1547.856 | 百萬美元 | https://www.sec.gov/Archives/edgar/data/2071778/000207177826000051/frmi-20260630.htm | [V] 一手 | SCOUT@CL SCOUT-GEN |
+| 2026-11-01 | 2026-08-31 | SMCI 10-K FY26：銷貨成本中關稅費用年增額（新貿易政策所致；同期 GPU 伺服器、HPC、機櫃級方案出貨增加） | 237.7 | 百萬美元（年增額） | https://www.sec.gov/Archives/edgar/data/0001375365/000137536526000022/smci-20260630.htm | [V] 一手 | SCOUT@CL SCOUT-GEN |
