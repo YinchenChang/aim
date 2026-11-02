@@ -153,3 +153,4 @@
 | 2026-11-02 | 2026-06-30 | CoreWeave 2Q26 committed contracts (take-or-pay) 占營收比例（三個月） | 98 | % of revenue | https://www.sec.gov/Archives/edgar/data/1769628/000176962826000366/crwv-20260630.htm | [V] 一手 | SCOUT@CL SCOUT-GEN |
 | 2026-11-02 | 2026-06-30 | CoreWeave 未履行 RPO（2026-06-30），41% 預計於 24 個月內認列；RPO 變動對價含其有權轉售之已承諾容量估計 | 103.7 | USD bn | https://www.sec.gov/Archives/edgar/data/1769628/000176962826000366/crwv-20260630.htm | [V] 一手 | SCOUT@CL SCOUT-GEN |
 | 2026-11-02 | 2026-09-09 | SF Compute 平台客戶經轉售閒置算力之平均實現折扣（公司自述） | 25 | % of compute cost | https://sfcompute.com/news/realized-discount | [I-利害方] 一手 | SCOUT@CL SCOUT-GEN |
+| 2026-11-02 | 2026-09-30 | Alphabet-level activities 3Q26 營業損失（主要為共用 AI 研發，含通用模型開發之基礎設施使用成本；未分攤至分部） | -7655 | USD m | https://www.sec.gov/Archives/edgar/data/1652044/000165204426000084/goog-20260930.htm | [V] 一手 | SCOUT@CL SCOUT-GEN |
