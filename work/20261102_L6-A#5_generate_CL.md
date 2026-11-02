@@ -21,7 +21,7 @@
 
 ## 1. 落差一句
 
-ASC 280 之加總恆等：`OI_合併 ≡ OI_Services ＋ OI_Cloud ＋ OI_OtherBets ＋ OI_ALA`。Alphabet 原文：未分攤至分部者主要為「certain AI-focused shared research and development activities, including employee compensation expenses and technical infrastructure usage costs associated with the development of our general AI models」（Note 15）；MD&A：「Alphabet-level activities primarily reflect expenses related to our shared AI research and development」。Google Cloud 對外出售以這些通用模型為核心之服務（Gemini／Vertex）與 TPU 系統，但其分部營業利益**不承擔模型開發成本**。定義無量綱 `χ ≡ |OI_ALA| ÷ OI_Cloud` 與「依營收比分攤後之分部利潤率差」`Δm ≡ s_Cloud·|OI_ALA| ÷ Rev_Cloud`（`s_Cloud`＝Cloud 營收 ÷ (Services＋Cloud) 營收，一種可替換之分攤鍵）。`[D]` 本輪初算（皆 `[V]` 一手申報 10-Q 期 2026-09-30，單位百萬美元；`[D]` 自算）：
+ASC 280 之加總恆等：`OI_合併 ≡ OI_Services ＋ OI_Cloud ＋ OI_OtherBets ＋ OI_ALA`。Alphabet 原文：未分攤至分部者主要為「certain AI-focused shared research and development activities, including employee compensation expenses and technical infrastructure usage costs associated with the development of our general AI models」（Note 15）；MD&A：「Alphabet-level activities primarily reflect expenses related to our shared AI research and development」。Google Cloud 對外出售以這些通用模型為核心之服務（Gemini／Vertex）與 TPU 系統，但其分部營業利益**不承擔模型開發成本**。定義無量綱 `χ ≡ abs(OI_ALA) ÷ OI_Cloud` 與「依營收比分攤後之分部利潤率差」`Δm ≡ s_Cloud·abs(OI_ALA) ÷ Rev_Cloud`（`s_Cloud`＝Cloud 營收 ÷ (Services＋Cloud) 營收，一種可替換之分攤鍵）。`[D]` 本輪初算（皆 `[V]` 一手申報 10-Q 期 2026-09-30，單位百萬美元；`[D]` 自算）：
 - 3Q26：Cloud 營收 30,709、OI 11,121（分部利潤率 36.2%）；ALA −7,655 → `χ` ≈ 0.69；`s_Cloud` ≈ 24.2% → 分攤 ≈ 1,851 → `Δm` ≈ 6.0 pp（調整後 ≈ 30.2%）。
 - 3Q25：Cloud 營收 15,157、OI 3,594（23.7%）；ALA −4,467 → `χ` ≈ 1.24；`s_Cloud` ≈ 14.8% → `Δm` ≈ 4.4 pp。
 - 9M26：Cloud 營收 75,505、OI 26,533（35.1%）；ALA −18,835（9M25 −10,866，＋73%）→ `χ` ≈ 0.71。
@@ -35,7 +35,7 @@ ASC 280 之加總恆等：`OI_合併 ≡ OI_Services ＋ OI_Cloud ＋ OI_OtherBe
 | 選擇者 | 申報主體（CODM 報告結構）；恆等式本身無選擇 |
 | 可見端 | Alphabet 10-Q Note 15 分部營收／OI／ALA 與分部費用補充（Cloud「Employee compensation」7,081／「Other costs and expenses」12,507，3Q26）；MD&A 分部獲利段；Cloud MD&A 新增「inventory and related costs associated with the sale of TPU systems」 |
 | 指名不可見端 | ALA 內模型開發 vs 公司層費用（法務、慈善、資遣）之拆分；模型開發之基礎設施使用成本金額；推論成本 vs 訓練成本歸屬；Microsoft FY27 起「Agents and Infra」分部合併應用、多模型系統與 Azure 基礎設施（重編），Azure 單獨利潤不可見；Amazon 模型（Nova 等）開發成本落於哪一分部未明文 |
-| 對照式（生成用） | `m_Cloud,adj ≡ (OI_Cloud − k·|OI_ALA|) ÷ Rev_Cloud`，`k`＝分攤鍵。可拒絕：若在任一合理 `k`（營收比、算力使用比）下 `Δm` ＜ 3 pp，或 ALA 中模型開發占比經原文確認為小 |
+| 對照式（生成用） | `m_Cloud,adj ≡ (OI_Cloud − k·abs(OI_ALA)) ÷ Rev_Cloud`，`k`＝分攤鍵。可拒絕：若在任一合理 `k`（營收比、算力使用比）下 `Δm` ＜ 3 pp，或 ALA 中模型開發占比經原文確認為小 |
 | 表達工具型態（只指名，不選券） | 美股雲端／AI 平台主體（Alphabet；比較組 Amazon、Microsoft、Oracle）。不選券 |
 
 ## 3. B 端可觀測載體（只指名；URL 為錨，非測一結論）
