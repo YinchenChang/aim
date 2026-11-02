@@ -157,3 +157,4 @@
 | 2026-11-02 | 2026-09-30 | Microsoft 尚未起租之租約（主要為資料中心；部分附合約條件），將於 FY2027–FY2034 起租，租期 1–20 年 | 364.6 | USD bn | https://www.sec.gov/Archives/edgar/data/789019/000119312526436133/msft-20260930.htm | [V] 一手 | SCOUT@CL SCOUT-GEN |
 | 2026-11-02 | 2026-09-30 | Microsoft 1Q FY27 當季以租賃換得之使用權資產：營業租賃 6,523、融資租賃 5,192（百萬美元）；此列為合計 | 11715 | USD m | https://www.sec.gov/Archives/edgar/data/789019/000119312526436133/msft-20260930.htm | [V] 一手 | SCOUT@CL SCOUT-GEN |
 | 2026-11-02 | 2025-10-02 | Microsoft 對新雲（Nebius、CoreWeave、Nscale、Lambda 等）之承諾合計逾此數（Bloomberg） | 33 | USD bn | https://www.datacenterknowledge.com/cloud/microsoft-bets-33b-on-neoclouds-to-ease-ai-crunch | [I-利害方] 二手 | SCOUT@CL SCOUT-GEN |
+| 2026-11-02 | 2026-10-25 | OpenRouter 上同一 DeepSeek 模型 41 端點（33 家服務者）之輸出報價最高對最低倍數（每百萬 token 0.18–2.40 美元） | 13.3 | 倍 | https://runtimewire.com/article/one-deepseek-model-41-endpoints-a-13x-price-gap-on-openroute-b239fa | [I-利害方] 二手 | SCOUT@CL SCOUT-GEN |
