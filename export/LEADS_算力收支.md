@@ -164,3 +164,5 @@
 | 2026-11-02 | 2026-10-30 | Digital Realty 於 2026-09-30 之建設合約約 .1B，未付承諾（含客戶可償還部分）約 14.0M（10-Q Note 16） | 4.1 | USD bn | https://www.sec.gov/Archives/edgar/data/1297996/000110465926120710/dlr-20260930x10q.htm | [V] 一手 | SCOUT@CL SCOUT-WATCH |
 | 2026-11-02 | 2026-11-02 | Marvell 與 Lumentum 合併案管理層估合併後 2030 年可服務市場（TAM） | 550 | US$ billion（2030） | https://www.sec.gov/Archives/edgar/data/0001633978/000119312526442758/d163169dex991.htm | [I-利害方] 一手 | SCOUT@CL SCOUT-WATCH |
 | 2026-11-02 | 2026-11-02 | Lumentum 宣布第二個重大 NPO/CPO（scale-up 光互連）設計案，預期產生營收逾此數 | 5 | US$ billion（累計，期間未揭露） | https://www.sec.gov/Archives/edgar/data/1835632/000119312526443876/d178787d425.htm | [I-利害方] 一手 | SCOUT@CL SCOUT-WATCH |
+| 2026-11-03 | 2026-10-30 | Sandisk 1Q FY27（截至 2026-10-02）Datacenter 終端市場營收（去年同期 269） | 4802 | 百萬美元／季 | https://www.sec.gov/Archives/edgar/data/2023554/000162828026068601/sndk-20261002.htm | [V] 一手 | SCOUT@CL SCOUT-WATCH |
+| 2026-11-03 | 2026-11-02 | Oracle 初步公開發行普通股 100 億美元，並同時發行 100 億美元優先無擔保票據；所得用於一般公司用途，得含資本支出、償債 | 10 | 十億美元（普通股；另票據 10） | https://www.sec.gov/Archives/edgar/data/1341439/000119312526442729/d181425d424b5.htm | [V] 一手 | SCOUT@CL SCOUT-WATCH |
