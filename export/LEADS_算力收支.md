@@ -179,3 +179,4 @@
 | 2026-11-04 | 2026-05-12 | BREIT 經 QTS 投入資料中心開發逾 37 億美元（2025 年底），開發管線 250 億美元、全數預租科技公司 15–20 年三淨租約（AltsWire 轉述） | 25 | 十億美元 | https://altswire.com/breit-raises-1-2-billion-in-q1-2026-highest-in-three-years-as-repurchases-fall-41/ | [I-利害方] 二手 | SCOUT@CL SCOUT-GEN |
 | 2026-11-04 | 2026-09-08 | Dell AI-optimized servers 營收，FQ2 FY27（三個月至 2026-07-31；上年同期 8,208） | 16401 | 百萬美元（季） | https://www.sec.gov/Archives/edgar/data/1571996/000157199626000046/dell-20260731.htm | [V] 一手 | SCOUT@CL SCOUT-GEN |
 | 2026-11-04 | 2026-09-09 | Dell FQ2 FY27 AI 伺服器訂單 60.9 十億美元，季末 AI 伺服器 backlog | 95 | 十億美元 | https://futurumgroup.com/?p=95253 | [I-利害方] 二手 | SCOUT@CL SCOUT-GEN |
+| 2026-11-04 | 2026-01-28 | Microsoft 首次揭露 Microsoft 365 Copilot 付費席次（FY26 Q2 財報；年增約 160%） | 15000000 | 席 | https://office365itpros.com/2026/01/30/microsoft-fy26-q2-results/ | [I-利害方] 二手 | SCOUT@CL SCOUT-GEN |
