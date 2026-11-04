@@ -180,3 +180,4 @@
 | 2026-11-04 | 2026-09-08 | Dell AI-optimized servers 營收，FQ2 FY27（三個月至 2026-07-31；上年同期 8,208） | 16401 | 百萬美元（季） | https://www.sec.gov/Archives/edgar/data/1571996/000157199626000046/dell-20260731.htm | [V] 一手 | SCOUT@CL SCOUT-GEN |
 | 2026-11-04 | 2026-09-09 | Dell FQ2 FY27 AI 伺服器訂單 60.9 十億美元，季末 AI 伺服器 backlog | 95 | 十億美元 | https://futurumgroup.com/?p=95253 | [I-利害方] 二手 | SCOUT@CL SCOUT-GEN |
 | 2026-11-04 | 2026-01-28 | Microsoft 首次揭露 Microsoft 365 Copilot 付費席次（FY26 Q2 財報；年增約 160%） | 15000000 | 席 | https://office365itpros.com/2026/01/30/microsoft-fy26-q2-results/ | [I-利害方] 二手 | SCOUT@CL SCOUT-GEN |
+| 2026-11-04 | 2026-08-27 | IREN 10-K（FY2026）PP&E 會計年限：HPC hardware 5 年（Mining hardware 4 年）；GPU 融資擔保資產直線法 5 年折舊 | 5 | 年 | https://www.sec.gov/Archives/edgar/data/1878848/000187884826000052/iren-20260630.htm | [V] 一手 | SCOUT@CL SCOUT-WATCH |
