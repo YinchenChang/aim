@@ -187,3 +187,5 @@
 | 2026-11-04 | 2026-09-10 | IDC：2Q26 非加速伺服器平均售價年增率（約 9,800→13,000 美元） | 33.5 | % | https://www.idc.com/resource-center/press-releases/2q2026-wwserver-tracker/ | [V] 二手 | SCOUT@CL SCOUT-GEN |
 | 2026-11-05 | 2026-07-31 | Snowflake 與一家第三方 AI 服務供應商之三年約（2025-12 起、至 2028-11）修約後最低採購承諾總額，逐約年未達須付差額 | 390 | 百萬美元 | https://www.sec.gov/Archives/edgar/data/1640147/000164014726000037/snow-20260731.htm | [V] 一手 | SCOUT@CL SCOUT-GEN |
 | 2026-11-05 | 2026-07-31 | Snowflake 2026-04 修訂雲端基礎設施約：五年（至 2031-03-31）累計最低支出，每約年最低 900–1,250 百萬美元 | 6000 | 百萬美元 | https://www.sec.gov/Archives/edgar/data/1640147/000164014726000037/snow-20260731.htm | [V] 一手 | SCOUT@CL SCOUT-GEN |
+| 2026-11-05 | 2026-10-22 | Meta 2026-09-30 Construction in progress 帳面原值（2025-12-31 為 50,521；附註：主要為資料中心、伺服器與網路基礎設施建置成本） | 89499 | 百萬美元 | https://www.sec.gov/Archives/edgar/data/1326801/000162828026066773/meta-20260930.htm | [V] 一手 | SCOUT@CL SCOUT-GEN |
+| 2026-11-05 | 2026-08-26 | NVIDIA 2026-07-26 存貨總額（原料 11,341、在製 13,377、成品 6,857；2026-01-25 為 21,403） | 31575 | 百萬美元 | https://www.sec.gov/Archives/edgar/data/1045810/000104581026000075/nvda-20260726.htm | [V] 一手 | SCOUT@CL SCOUT-GEN |
