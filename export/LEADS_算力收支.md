@@ -185,3 +185,5 @@
 | 2026-11-04 | 2026-11-04 | Coherent Datacenter & Communications 分部 FQ1（截至 2026-09-30 三個月）營收，年增 79%，管理層歸因於 AI 資料中心需求 | 1952 | US$ million/季 | https://www.sec.gov/Archives/edgar/data/820318/000082031826000023/iivi-20260930.htm | [V] 一手 | SCOUT@CL SCOUT-WATCH |
 | 2026-11-04 | 2026-09-10 | IDC：2Q26 全球 GPU 加速伺服器營收（占伺服器營收 52.6%，年增 28.1%） | 87.4 | 十億美元／季 | https://www.idc.com/resource-center/press-releases/2q2026-wwserver-tracker/ | [V] 二手 | SCOUT@CL SCOUT-GEN |
 | 2026-11-04 | 2026-09-10 | IDC：2Q26 非加速伺服器平均售價年增率（約 9,800→13,000 美元） | 33.5 | % | https://www.idc.com/resource-center/press-releases/2q2026-wwserver-tracker/ | [V] 二手 | SCOUT@CL SCOUT-GEN |
+| 2026-11-05 | 2026-07-31 | Snowflake 與一家第三方 AI 服務供應商之三年約（2025-12 起、至 2028-11）修約後最低採購承諾總額，逐約年未達須付差額 | 390 | 百萬美元 | https://www.sec.gov/Archives/edgar/data/1640147/000164014726000037/snow-20260731.htm | [V] 一手 | SCOUT@CL SCOUT-GEN |
+| 2026-11-05 | 2026-07-31 | Snowflake 2026-04 修訂雲端基礎設施約：五年（至 2031-03-31）累計最低支出，每約年最低 900–1,250 百萬美元 | 6000 | 百萬美元 | https://www.sec.gov/Archives/edgar/data/1640147/000164014726000037/snow-20260731.htm | [V] 一手 | SCOUT@CL SCOUT-GEN |
