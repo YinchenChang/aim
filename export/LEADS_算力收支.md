@@ -196,3 +196,4 @@
 | 2026-11-05 | 2026-11-04 | Riot 3Q26 業績稿：Corsicana powered land 開發總資本成本約每 critical IT MW（公司稱約為 Tier 3 建置之半） | 6 | 百萬美元／IT MW | https://www.sec.gov/Archives/edgar/data/0001167419/000110465926122368/riot-ex99d1.htm | [I-利害方] 一手 | SCOUT@CL SCOUT-GEN |
 | 2026-11-05 | 2026-11-04 | AMD 10-Q 3Q26（期末 2026-09-26）：Data Center 分部季淨營收（上年同季 4,341） | 8546 | 百萬美元 | https://www.sec.gov/Archives/edgar/data/2488/000000248826000191/amd-20260926.htm | [V] 一手 | SCOUT@CL SCOUT-WATCH |
 | 2026-11-05 | 2026-11-04 | AMD 10-Q 3Q26：Data Center 分部季營業利益（上年同季 1,074） | 2882 | 百萬美元 | https://www.sec.gov/Archives/edgar/data/2488/000000248826000191/amd-20260926.htm | [V] 一手 | SCOUT@CL SCOUT-WATCH |
+| 2026-11-06 | 2026-11-05 | TaskUs 10-Q 3Q26：AI Services 服務線季收入（上年同季 58,678 千；定義自本季起含自駕／機器人遠端與現場作業） | 74.959 | 百萬美元 | https://www.sec.gov/Archives/edgar/data/1829864/000182986426000156/task-20260930.htm | [V] 一手 | SCOUT@CL SCOUT-GEN |
