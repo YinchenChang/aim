@@ -204,3 +204,5 @@
 | 2026-11-07 | 2026-11-05 | IREN 10-Q（期末 2026-09-30）：租賃安排剩餘合約總值，含尚未可供客戶使用之已簽約容量（已起租部分之未來最低租金表合計 1,841 百萬美元） | 13957 | US$mn | https://www.sec.gov/Archives/edgar/data/1878848/000187884826000066/iren-20260930.htm | [V] 一手 | SCOUT@CL SCOUT-WATCH |
 | 2026-11-07 | 2026-11-06 | TeraWulf 3Q26 10-Q：Cayuga Site（紐約 Lansing）完成許可與場地開發後潛在總容量至多 400 MW，約支援 320 MW 關鍵 IT 負載 | 320 | MW 關鍵 IT 負載（潛在） | https://www.sec.gov/Archives/edgar/data/1083301/000162828026071671/wulf-20260930.htm | [I-利害方] 一手 | SCOUT@CL SCOUT-WATCH |
 | 2026-11-08 | 2026-11-06 | Oklo 10-Q 3Q26：2026-01-05 與 Meta 簽預付協議，推進俄亥俄州 Pike County 1.2 GW 電力園區以支援 Meta 資料中心 | 1.2 | GW | https://www.sec.gov/Archives/edgar/data/1849056/000162828026071319/oklo-20260930.htm | [I-利害方] 一手 | SCOUT@CL SCOUT-GEN |
+| 2026-11-08 | 2026-10-09 | Micron FY2026（期末 2026-09-03）營收 | 133188 | 百萬美元 | https://www.sec.gov/Archives/edgar/data/723125/000072312526000023/mu-20260903.htm | [V] 一手 | SCOUT@CL SCOUT-GEN |
+| 2026-11-08 | 2026-10-09 | Micron 存貨之在製品（work in process）餘額，2026-09-03（前年 2025-08-28 為 6,401） | 8252 | 百萬美元 | https://www.sec.gov/Archives/edgar/data/723125/000072312526000023/mu-20260903.htm | [V] 一手 | SCOUT@CL SCOUT-GEN |
