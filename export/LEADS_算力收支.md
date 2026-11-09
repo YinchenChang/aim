@@ -216,3 +216,4 @@
 | 2026-11-09 | 2026-09-08 | Dell Traditional servers and networking 營收，FQ2 FY27（三個月至 2026-07-31；上年同期 4,736） | 10531 | 百萬美元（季） | https://www.sec.gov/Archives/edgar/data/1571996/000157199626000046/dell-20260731.htm | [V] 一手 | SCOUT@CL SCOUT-GEN |
 | 2026-11-09 | 2026-09-08 | Dell ISG 分部營業利益，FQ2 FY27（三個月至 2026-07-31；ISG 營收 31,782；上年同期 1,470） | 4781 | 百萬美元（季） | https://www.sec.gov/Archives/edgar/data/1571996/000157199626000046/dell-20260731.htm | [V] 一手 | SCOUT@CL SCOUT-GEN |
 | 2026-11-09 | 2026-09-10 | IDC：2Q26 非加速伺服器出貨台數年增率 | 16.7 | % | https://www.idc.com/resource-center/press-releases/2q2026-wwserver-tracker/ | [V] 二手 | SCOUT@CL SCOUT-GEN |
+| 2026-11-09 | 2026-10-29 | Seagate FQ1 FY27 出貨容量（Blocks & Files 轉述法說；資料中心占約 90%） | 220 | EB（季） | https://www.blocksandfiles.com/disk/2026/10/29/seagate-hyperscalers-hot-for-hamr/5306231 | [I-利害方] 二手 | SCOUT@CL SCOUT-GEN |
