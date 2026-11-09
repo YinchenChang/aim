@@ -218,3 +218,4 @@
 | 2026-11-09 | 2026-09-10 | IDC：2Q26 非加速伺服器出貨台數年增率 | 16.7 | % | https://www.idc.com/resource-center/press-releases/2q2026-wwserver-tracker/ | [V] 二手 | SCOUT@CL SCOUT-GEN |
 | 2026-11-09 | 2026-10-29 | Seagate FQ1 FY27 出貨容量（Blocks & Files 轉述法說；資料中心占約 90%） | 220 | EB（季） | https://www.blocksandfiles.com/disk/2026/10/29/seagate-hyperscalers-hot-for-hamr/5306231 | [I-利害方] 二手 | SCOUT@CL SCOUT-GEN |
 | 2026-11-09 | 2026-10-09 | Micron FY26（截至 2026-09-03）營業活動淨現金流入 | 89675 | 百萬美元 | https://www.sec.gov/Archives/edgar/data/723125/000072312526000023/mu-20260903.htm | [V] 一手 | SCOUT@CL Q-0185 |
+| 2026-11-09 | 2026-10-29 | Seagate FQ1 FY27（截至 2026-10-02）近線 HDD 出貨容量（前季 195、去年同期 160） | 198 | EB（季） | https://www.sec.gov/Archives/edgar/data/1137789/000113778926000309/stx-20261002.htm | [V] 一手 | SCOUT@CL SCOUT-GEN |
