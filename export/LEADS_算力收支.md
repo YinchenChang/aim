@@ -219,3 +219,5 @@
 | 2026-11-09 | 2026-10-29 | Seagate FQ1 FY27 出貨容量（Blocks & Files 轉述法說；資料中心占約 90%） | 220 | EB（季） | https://www.blocksandfiles.com/disk/2026/10/29/seagate-hyperscalers-hot-for-hamr/5306231 | [I-利害方] 二手 | SCOUT@CL SCOUT-GEN |
 | 2026-11-09 | 2026-10-09 | Micron FY26（截至 2026-09-03）營業活動淨現金流入 | 89675 | 百萬美元 | https://www.sec.gov/Archives/edgar/data/723125/000072312526000023/mu-20260903.htm | [V] 一手 | SCOUT@CL Q-0185 |
 | 2026-11-09 | 2026-10-29 | Seagate FQ1 FY27（截至 2026-10-02）近線 HDD 出貨容量（前季 195、去年同期 160） | 198 | EB（季） | https://www.sec.gov/Archives/edgar/data/1137789/000113778926000309/stx-20261002.htm | [V] 一手 | SCOUT@CL SCOUT-GEN |
+| 2026-11-09 | 2026-11-09 | Vistra 3Q26 10-Q：2026-01 與 Meta 簽 20 年 PPA，自 PJM 核電廠供應無碳電力與容量合計 | 2609 | MW | https://www.sec.gov/Archives/edgar/data/1692819/000169281926000025/vistra-20260930.htm | [V] 一手 | SCOUT@CL SCOUT-WATCH R-22 |
+| 2026-11-09 | 2026-11-05 | Core Scientific 3Q26 10-Q：以約 2.33 億美元現金收購德州 Hunt County 土地與電力，預期支援約 430 MW 總電力容量，已獲 ERCOT 併網爬坡排程 | 430 | MW | https://www.sec.gov/Archives/edgar/data/1839341/000183934126000030/core-20260930.htm | [V] 一手 | SCOUT@CL SCOUT-WATCH R-21 |
