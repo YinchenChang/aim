@@ -1,7 +1,7 @@
 # AIM_FUNNEL — 候選漏斗（共用；repo `YinchenChang/aim` main 為唯一正本；Drive `AIM/AIM_FUNNEL.md` 為 C1.2 前唯讀史料）
 
 <!-- BY: PM@CL | MODEL: Claude Opus 5.5【自報】 | CHARTER: AIM-C1.2 | NOTE: §1 全列外移至 query/ARCH_live.md；標頭正本敘述更正；未改任何候選判斷 | CONSUMES: AIM_FUNNEL.md@e4b3409 | EMITS: AIM_FUNNEL.md；query/ARCH_live.md -->
-**日期：** 2026-11-09　**寫入者：** ANALYST@CL（L4-I#6 測一）　**上限：** 8837 B
+**日期：** 2026-11-09　**寫入者：** ANALYST@CL（L5-P#6 測一）　**上限：** 8837 B
 **⚠ 無金額、無部位、無尺碼。** 准入見 CHARTER §1。改本檔＝repo `aim` main 原地改＋commit（C1.2 起）；禁新建同名正本。新檔以 repo 路徑引用；舊 fileId 經 `tools/aimctl.py fileid` 解析。
 
 ## 1. 現役候選（全列＝`query/ARCH_live.md`）
@@ -210,6 +210,7 @@
 | L8-I#6 | 標註／驗證：誘因 | 測一不通過｜不進 T |
 | L9-A#6 | 受規管 HITL：會計恆等 | 測一不通過｜不進 T |
 | L9-I#6 | 受規管 HITL：誘因 | 測一不通過｜不進 T |
+| L5-P#6 | 儲存與 IO：守恆 | 測一不通過｜不進 T |
 
 ## 2. 已殺（觸發器全文＝`query/ARCH_dead.md`）
 
