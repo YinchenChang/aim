@@ -216,6 +216,7 @@
 | L5-A#6 | 儲存與 IO：會計恆等 | 測一通過｜不進 T |
 | L5-I#6 | 儲存與 IO：誘因 | 測一不通過｜不進 T |
 | L6-P#6 | 雲端：守恆 | 測一不通過｜不進 T |
+| L6-A#6 | 雲端：會計恆等 | 測一不通過｜不進 T |
 
 ## 2. 已殺（觸發器全文＝`query/ARCH_dead.md`）
 
@@ -230,7 +231,7 @@
 | T-15 CoreWeave 空方 | **委託資本外**（C1.0 §9-2，記於 `query/CHARTER_HIST.md`），非殺 | 不適用 |
 
 ## 3. 待測格（全表＝`query/ARCH_matrix.md`）
-已生成未測：L6-A#6（`work/20261110_L6-A#6_generate_CL.md`；Q-0190 open）。各格入 §1 之紀錄見 `query/QUEUE.md`（Q-0001–Q-0146 done）與 git log。逐格處理，填不出標【未生成】；格狀態只寫 ARCH_matrix 與 §1。
+已生成未測：無（L6-A#6 測一畢，Q-0190 done）。各格入 §1 之紀錄見 `query/QUEUE.md`（Q-0001–Q-0146 done）與 git log。逐格處理，填不出標【未生成】；格狀態只寫 ARCH_matrix 與 §1。
 
 ## 5. 未完成遷移項（C1.2；完成即刪）
 1. §4 SCOUT 固定載入上限 16 KB 與實際（CHARTER＋FUNNEL ≈ 17.9 KB，2026-10-11 §1 外移後）不一致；待季修裁定，暫以 30 KB 總上限（§8）為準。
