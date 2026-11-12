@@ -235,3 +235,4 @@
 | 2026-11-11 | 2026-08-20 | Alibaba AI Cloud and Compute Services 季營收 US$7.1B，年增 45%（22 季新高；2026-06 季） | 7.1 | US$B／季 | https://www.alibabagroup.com/document-2027233133950140416 | [I-利害方] 一手 | SCOUT@CL SCOUT-GEN |
 | 2026-11-11 | 2026-08-20 | Alibaba AI-related product revenue 季 US$1.8B，連續第 12 季三位數年增（2026-06 季） | 1.8 | US$B／季 | https://www.alibabagroup.com/document-2027233133950140416 | [I-利害方] 一手 | SCOUT@CL SCOUT-GEN |
 | 2026-11-11 | 2026-08-20 | Alibaba 季資本支出近 US$10B，年增 75%（2026-06 季） | 10 | US$B／季 | https://www.alibabagroup.com/document-2027233133950140416 | [I-利害方] 一手 | SCOUT@CL SCOUT-GEN |
+| 2026-11-12 | 2026-11-10 | Anthropic S-1/A 第 2 號修正：AMD、Broadcom、Google、Micron、Microsoft、NVIDIA、TSMC Partners 同意以 IPO 價格認購 Class N 普通股之同步私募合計（以 IPO 完成為條件；預估發行價區間 70–78 美元） | 26.0 | 十億美元 | https://www.sec.gov/Archives/edgar/data/2130357/000162828026072484/anthropicpbc-sx1ax2.htm | [V] 一手 | SCOUT@CL SCOUT-WATCH |
