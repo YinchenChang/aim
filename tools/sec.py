@@ -25,7 +25,12 @@ import time
 import urllib.error
 import urllib.request
 
-USER_AGENT = "AIM-research kimiochang@yahoo.com.tw"   # SEC-required contact
+import os
+
+# SEC-required contact ("name email"); set by the user in the environment, never hardcoded.
+USER_AGENT = os.environ.get("SEC_USER_AGENT", "").strip()
+if not USER_AGENT:
+    sys.exit("SEC_USER_AGENT 未設定：請設為「名稱 email」，例如 'AIM-research name@example.com'")
 MIN_INTERVAL = 0.125                                  # <= 8 req/s
 _last = 0.0
 
